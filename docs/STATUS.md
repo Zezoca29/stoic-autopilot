@@ -12,7 +12,7 @@ Atualizado em 2026-10-15.
 - 2026-10-15 — Task 19: páginas `site/` (links, privacidade, termos); falta o e-mail de contato público.
 - 2026-10-15 — Task 20: banco de ~150 citações verificadas, `ROUTINE.md`, amostra e aprovação visual (precisa de `PEXELS_API_KEY` e `IG_HANDLE` no `.env`).
 - 2026-10-15 — Tasks 21–23: repositório no GitHub, primeira publicação real, primeira semana e rotina agendada. Dependem das contas (`docs/setup/accounts.md`).
-- 2026-10-15 — Nome do perfil ainda em escolha.
+- 2026-10-15 — Nome do perfil escolhido: Fortaleza Interior (`@fortalezainterior`); falta confirmar se o @ está livre no Instagram e no TikTok.
 - Adiados da revisão: timeout ambíguo no `media_publish` pode duplicar um post; token renovado sem `::add-mask::`.
 
 ## Como verificar

@@ -5,13 +5,13 @@ Comece pelo Instagram hoje: a conta precisa de 5–7 dias de uso manual antes da
 As telas da Meta e do TikTok mudam com frequência — se um nome de menu não bater, procure pelo termo equivalente.
 
 ## 1. Instagram
-1. Crie uma conta nova (e-mail dedicado ao projeto).
-2. Foto, nome e bio. Bio sugerida: "Estoicismo para a vida real. Sêneca, Marco Aurélio, Epicteto. Narração com voz sintética. 📚 Livros ↓"
+1. Crie uma conta nova (e-mail dedicado ao projeto) com o nome **Fortaleza Interior** e o @ `@fortalezainterior`. Se estiver ocupado, use `@fortaleza.interior` ou `@fortalezainterior.br`.
+2. Foto, nome e bio. Bio sugerida: "Fortaleza Interior: estoicismo para a vida real. Sêneca, Marco Aurélio, Epicteto. Narração com voz sintética. 📚 Livros ↓"
 3. Configurações → Tipo de conta → **Mudar para conta profissional → Criador**. Categoria: "Educação" ou "Autor".
 4. Aquecimento (5–7 dias): siga ~30 perfis do nicho, curta e comente de verdade, poste 2–3 vezes manualmente.
 
 ## 2. TikTok
-1. Crie a conta com o mesmo nome do Instagram, foto e bio iguais.
+1. Crie a conta **Fortaleza Interior** com o mesmo @ do Instagram, foto e bio iguais.
 2. Até a Fase 5 os reels são enviados por você: eles ficam em `output/<id>/reel.mp4`. Dá para agendar até 10 dias à frente pelo TikTok Studio na web.
 
 ## 3. GitHub

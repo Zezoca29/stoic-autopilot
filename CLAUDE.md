@@ -6,7 +6,7 @@ updated: 2026-10-15
 ---
 # stoic-autopilot
 
-Gera toda semana 7 reels narrados e 3 carrosséis de estoicismo em pt-BR e publica sozinho no Instagram via GitHub Actions (TikTok em upload manual até a auditoria). Custo zero além da assinatura do Claude.
+Marca: **Fortaleza Interior** (`@fortalezainterior`). Gera toda semana 7 reels narrados e 3 carrosséis de estoicismo em pt-BR e publica sozinho no Instagram via GitHub Actions (TikTok em upload manual até a auditoria). Custo zero além da assinatura do Claude.
 
 ## Comandos
 
