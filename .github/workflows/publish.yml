@@ -32,6 +32,7 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements-publisher.txt
       - name: Publish due posts
+        timeout-minutes: 20  # leaves time for the commit step, which also runs after a timeout
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
@@ -50,5 +51,10 @@ jobs:
           git config user.name "stoic-autopilot"
           git config user.email "stoic-autopilot@users.noreply.github.com"
           git commit -m "chore: update queue status" queue.json
-          git pull --rebase
-          git push
+          for attempt in 1 2 3; do
+            if git pull --rebase && git push; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep 15
+          done
+          echo "could not push queue.json; published posts may be republished" >&2
+          exit 1

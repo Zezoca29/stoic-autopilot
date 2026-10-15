@@ -23,13 +23,19 @@ class InstagramClient:
         self.poll_seconds = poll_seconds
         self.max_polls = max_polls
 
+    def _request(self, method, path: str, **kwargs):
+        try:
+            return method(f"{BASE}/{path}", timeout=60, **kwargs)
+        except requests.RequestException as exc:
+            # requests echoes the URL (with the token in the query string) in its messages; the message
+            # ends up in queue.json, which is committed to a public repo, so redact and drop the chain.
+            raise InstagramError(f"network error: {str(exc).replace(self.token, '***')}") from None
+
     def _post(self, path: str, **fields) -> dict:
-        response = self.session.post(f"{BASE}/{path}", data={**fields, "access_token": self.token}, timeout=60)
-        return self._json(response)
+        return self._json(self._request(self.session.post, path, data={**fields, "access_token": self.token}))
 
     def _get(self, path: str, **params) -> dict:
-        response = self.session.get(f"{BASE}/{path}", params={**params, "access_token": self.token}, timeout=60)
-        return self._json(response)
+        return self._json(self._request(self.session.get, path, params={**params, "access_token": self.token}))
 
     @staticmethod
     def _json(response) -> dict:

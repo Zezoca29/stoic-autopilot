@@ -89,3 +89,11 @@ def test_only_publishes_a_future_entry_immediately():
     future = make_entry(make_reel(1, NOW + timedelta(days=2)), ["reel.mp4"])
     result = publish_due([future], FakeClient(), BASE_URL, NOW, only=future["id"], log=quiet)
     assert result.published == [future["id"]]
+
+
+def test_queue_is_saved_after_each_entry():
+    entries = [due_reel(), make_entry(make_reel(2, NOW - timedelta(minutes=1)), ["reel.mp4"])]
+    saves = []
+    publish_due(entries, FakeClient(), BASE_URL, NOW, log=quiet,
+                on_change=lambda: saves.append([e["platforms"]["instagram"]["status"] for e in entries]))
+    assert saves == [["published", "pending"], ["published", "published"]]

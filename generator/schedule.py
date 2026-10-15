@@ -11,13 +11,15 @@ CAROUSEL_HOUR = 19
 CAROUSEL_DAY_OFFSETS = (1, 3, 5)
 DAYS = 7
 SKIP_IF_QUEUED_AHEAD = timedelta(days=2)
+LEAD_TIME = timedelta(minutes=90)  # writing + rendering a batch takes a while; a slot closer than this would be in the past
 
 
 def next_slots(queue: list[dict], now: datetime) -> dict:
     last = max((parse_time(entry["scheduled_at"]) for entry in queue), default=None)
     if last is not None and last - now > SKIP_IF_QUEUED_AHEAD:
         return {"skip": True, "reason": f"queue already scheduled until {last.isoformat()}"}
-    start_after = max(now, last) if last is not None else now
+    earliest = now + LEAD_TIME
+    start_after = max(earliest, last) if last is not None else earliest
     first_day = start_after.date()
     if datetime.combine(first_day, time(REEL_HOUR), tzinfo=now.tzinfo) <= start_after:
         first_day += timedelta(days=1)

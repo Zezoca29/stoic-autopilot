@@ -37,3 +37,7 @@ def test_skips_when_queue_is_already_full():
     slots = next_slots([entry_at(NOW + timedelta(days=3))], NOW)
     assert slots["skip"] is True
     assert "2026-10-22" in slots["reason"]
+
+
+def test_slot_too_close_to_now_moves_to_tomorrow():
+    assert next_slots([], NOW.replace(hour=10, minute=45))["reels"][0] == "2026-10-20T12:00:00-03:00"

@@ -66,8 +66,17 @@ def fetch_footage(keywords, pillar, exclude_ids, out_path, api_key, session=None
         footage_id, url = pick_video(keywords, pillar, exclude_ids, api_key, session)
         download(url, out_path, session)
         return footage_id
+    except requests.HTTPError as exc:
+        status = exc.response.status_code if exc.response is not None else None
+        if status in (401, 403):  # a bad key would otherwise silently give every reel the fallback clip
+            raise FootageError(f"Pexels rejected the API key (HTTP {status}); check PEXELS_API_KEY") from None
+        return _use_fallback(out_path)
     except (FootageError, requests.RequestException):
-        if not FALLBACK_VIDEO.exists():
-            raise FootageError(f"Pexels unavailable and {FALLBACK_VIDEO} is missing")
-        shutil.copyfile(FALLBACK_VIDEO, out_path)
-        return "fallback"
+        return _use_fallback(out_path)
+
+
+def _use_fallback(out_path: Path) -> str:
+    if not FALLBACK_VIDEO.exists():
+        raise FootageError(f"Pexels unavailable and {FALLBACK_VIDEO} is missing")
+    shutil.copyfile(FALLBACK_VIDEO, out_path)
+    return "fallback"

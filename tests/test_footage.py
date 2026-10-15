@@ -84,3 +84,21 @@ def test_fetch_footage_uses_local_fallback_when_pexels_fails(tmp_path, monkeypat
     out = tmp_path / "bg.mp4"
     assert fetch_footage(["x"], "controle", set(), out, "key", session=Down({})) == "fallback"
     assert out.read_bytes() == b"fallback"
+
+
+def test_rejected_api_key_is_an_error_not_a_silent_fallback(tmp_path, monkeypatch):
+    import pytest
+    from generator.footage import FootageError
+
+    fallback = tmp_path / "fallback.mp4"
+    fallback.write_bytes(b"fallback")
+    monkeypatch.setattr(footage, "FALLBACK_VIDEO", fallback)
+
+    class Unauthorized(FakeSession):
+        def get(self, *args, **kwargs):
+            response = requests.Response()
+            response.status_code = 401
+            raise requests.HTTPError("401 Client Error", response=response)
+
+    with pytest.raises(FootageError, match="PEXELS_API_KEY"):
+        fetch_footage(["x"], "controle", set(), tmp_path / "bg.mp4", "bad", session=Unauthorized({}))

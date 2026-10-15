@@ -76,3 +76,19 @@ def test_api_error_keeps_code():
         client.publish_reel("u", "x")
     assert info.value.code == 190
     assert "Error validating access token" in str(info.value)
+
+
+def test_network_error_never_leaks_token():
+    import requests
+
+    class Broken(FakeSession):
+        def get(self, url, params=None, timeout=None):
+            raise requests.ConnectionError(f"Max retries exceeded with url: /c1?access_token={params['access_token']}")
+
+    client = InstagramClient("178", "SECRETTOKEN", session=Broken([ok({"id": "c1"})]), sleep=lambda s: None,
+                             max_polls=3)
+    with pytest.raises(InstagramError) as info:
+        client.publish_reel("u", "x")
+    assert "SECRETTOKEN" not in str(info.value)
+    assert "network error" in str(info.value)
+    assert info.value.__cause__ is None and info.value.__suppress_context__

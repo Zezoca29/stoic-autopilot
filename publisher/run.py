@@ -43,8 +43,13 @@ def _record_failure(entry, message, result, log) -> None:
     log(f"{'FAILED' if gave_up else 'retry next hour'}: {message}")
 
 
-def publish_due(queue, client, base_url, now, *, only=None, dry_run=False, log=print) -> RunResult:
-    """Publish due Instagram entries; an invalid token aborts the run without spending attempts."""
+def publish_due(queue, client, base_url, now, *, only=None, dry_run=False, log=print,
+                on_change=lambda: None) -> RunResult:
+    """Publish due Instagram entries; an invalid token aborts the run without spending attempts.
+
+    on_change runs after every entry whose state changed, so a job killed mid-run never forgets a post
+    that already went out (which would republish it next hour).
+    """
     result = RunResult()
     for entry in _select(queue, now, only):
         urls = media_urls(entry, base_url)
@@ -63,6 +68,7 @@ def publish_due(queue, client, base_url, now, *, only=None, dry_run=False, log=p
             mark_published(entry, "instagram", published_id)
             result.published.append(entry["id"])
             log(f"published {entry['id']} -> {published_id}")
+        on_change()
     return result
 
 
@@ -80,7 +86,8 @@ def main(argv=None) -> int:
     client = None if args.dry_run else InstagramClient(require(settings.ig_user_id, "IG_USER_ID"),
                                                        require(settings.ig_access_token, "IG_ACCESS_TOKEN"))
     try:
-        result = publish_due(queue, client, base_url, now, only=args.only, dry_run=args.dry_run)
+        result = publish_due(queue, client, base_url, now, only=args.only, dry_run=args.dry_run,
+                             on_change=lambda: save_queue(args.queue, queue))
     except InstagramError as exc:
         save_queue(args.queue, queue)
         print(f"ERROR: Instagram token invalid or expired ({exc}). "
