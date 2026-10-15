@@ -1,0 +1,54 @@
+name: publish
+
+on:
+  schedule:
+    - cron: "5 * * * *"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Publish this queue id now (ignores its schedule)"
+        required: false
+        default: ""
+      dry_run:
+        description: "Only list what would be published"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements-publisher.txt
+      - name: Publish due posts
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          PAGES_BASE_URL: ${{ vars.PAGES_BASE_URL }}
+          ONLY: ${{ inputs.only }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          args=()
+          if [ -n "$ONLY" ]; then args+=(--only "$ONLY"); fi
+          if [ "$DRY_RUN" = "true" ]; then args+=(--dry-run); fi
+          python -m publisher.run "${args[@]}"
+      - name: Commit queue status
+        if: always()
+        run: |
+          if git diff --quiet queue.json; then exit 0; fi
+          git config user.name "stoic-autopilot"
+          git config user.email "stoic-autopilot@users.noreply.github.com"
+          git commit -m "chore: update queue status" queue.json
+          git pull --rebase
+          git push
