@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,700;1,500&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; width: 1080px; height: 1350px; background: #111; color: #f2ede4; }
+  .slide { box-sizing: border-box; width: 1080px; height: 1350px; padding: 120px 100px;
+           display: flex; flex-direction: column; justify-content: center; gap: 48px; position: relative; }
+  .accent { width: 120px; height: 6px; background: #d4af37; }
+  h1 { font-family: 'Cormorant Garamond', serif; font-weight: 700; margin: 0; line-height: 1.1;
+       font-size:{{ 96 if is_cover else 72 }}px; }
+  p { font-family: 'Inter', sans-serif; font-size: 40px; line-height: 1.5; margin: 0; color: #d9d3c7; }
+  .ref { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 40px; color: #d4af37; }
+  .footer { position: absolute; bottom: 72px; left: 100px; right: 100px; display: flex;
+            justify-content: space-between; font-family: 'Inter', sans-serif; font-size: 28px; color: #8c8578; }
+</style>
+</head>
+<body>
+<div class="slide">
+  <div class="accent"></div>
+  <h1>{{ slide.title }}</h1>
+  {% if slide.body %}<p>{{ slide.body }}</p>{% endif %}
+  {% if reference %}<div class="ref">{{ reference }}</div>{% endif %}
+  <div class="footer"><span>{{ handle }}</span><span>{{ index }}/{{ total }}</span></div>
+</div>
+</body>
+</html>
