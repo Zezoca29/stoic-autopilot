@@ -31,3 +31,15 @@ ffmpeg (com libass) precisa estar no PATH.
 - Todo timestamp é ISO 8601 com offset (`America/Sao_Paulo`).
 - Segredos ficam no `.env` local e nos GitHub Secrets; nunca ler, imprimir ou commitar. Modelo em `env.example`.
 - Rotina semanal do Claude: `ROUTINE.md` (criado na Task 20).
+
+## Nunca
+
+- Publicar citação fora de `content/quotes.json` ou alterar o texto citado: credibilidade é o ativo do perfil.
+- Colocar o token da Meta em mensagem de erro, log ou `queue.json`: o repositório é público.
+- Commitar trilhas de `generator/music/*.mp3`: a licença do Pixabay proíbe redistribuí-las.
+- Editar `queue.json` à mão com post já `published`: o publicador republicaria ou perderia o registro.
+- Fazer push de lote que falhou em `build_week`: a fila só vale quando o lote inteiro passou.
+
+## Onde está o resto
+
+`ARCHITECTURE.md` · `docs/STATUS.md` · `docs/setup/accounts.md` (contas e segredos) · `docs/superpowers/` (spec e plano)
