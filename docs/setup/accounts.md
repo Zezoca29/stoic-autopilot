@@ -35,7 +35,7 @@ As telas da Meta e do TikTok mudam com frequência — se um nome de menu não b
 2. Repository access: só `stoic-autopilot`. Permissions → Repository → **Secrets: Read and write**. Validade: 1 ano.
 
 ## 7. Onde colocar cada valor
-- Arquivo local `.env` (copie de `.env.example`): `PEXELS_API_KEY`, `IG_USER_ID`, `IG_ACCESS_TOKEN`, `PAGES_BASE_URL`, `IG_HANDLE`.
+- Arquivo local `.env` (copie de `env.example`): `PEXELS_API_KEY`, `IG_USER_ID`, `IG_ACCESS_TOKEN`, `PAGES_BASE_URL`, `IG_HANDLE`.
 - GitHub → repositório → Settings → Secrets and variables → Actions:
   - **Secrets:** `IG_USER_ID`, `IG_ACCESS_TOKEN`, `GH_SECRETS_PAT` (token da seção 6).
   - **Variables:** `PAGES_BASE_URL` = `https://SEU_USUARIO.github.io/stoic-autopilot`.
