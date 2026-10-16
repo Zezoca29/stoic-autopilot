@@ -1,1 +1,1492 @@
-[]
+[
+  {
+    "id": "epictetus-enchiridion-1-a",
+    "author": "Epicteto",
+    "work": "Manual",
+    "reference": "1",
+    "text_pt": "As coisas que dependem de nós são, por natureza, livres, sem restrição nem impedimento; as que não dependem de nós são frágeis, servis, sujeitas a restrição e estão em poder de outros.",
+    "text_source": "And the things in our power are by nature free, not subject to restraint or hindrance; but the things not in our power are weak, slavish, subject to restraint, in the power of others.",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "controle"
+  },
+  {
+    "id": "epictetus-enchiridion-1-b",
+    "author": "Epicteto",
+    "work": "Manual",
+    "reference": "1",
+    "text_pt": "Pratique desde já dizer a toda impressão dura: você é apenas uma impressão, e de modo algum aquilo que parece ser.",
+    "text_source": "Straightway then practise saying to every harsh appearance: You are an appearance, and in no manner what you appear to be.",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "emocoes"
+  },
+  {
+    "id": "epictetus-enchiridion-3",
+    "author": "Epicteto",
+    "work": "Manual",
+    "reference": "3",
+    "text_pt": "Quando beijar seu filho ou sua esposa, diga a si mesmo que está beijando um ser humano; assim, quando a esposa ou o filho morrer, você não ficará perturbado.",
+    "text_source": "If you are kissing your child or wife, say that it is a human being whom you are kissing, for when the wife or child dies you will not be disturbed.",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "memento_mori"
+  },
+  {
+    "id": "epictetus-enchiridion-5",
+    "author": "Epicteto",
+    "work": "Manual",
+    "reference": "5",
+    "text_pt": "Os homens não se perturbam com as coisas que acontecem, mas com as opiniões sobre elas. A morte, por exemplo, nada tem de terrível; se tivesse, assim teria parecido a Sócrates. Terrível é a opinião de que a morte é terrível.",
+    "text_source": "Men are disturbed not by the things which happen, but by the opinions about the things; for example, death is nothing terrible, for if it were it would have seemed so to Socrates; for the opinion about death that it is terrible, is the terrible thing.",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "emocoes"
+  },
+  {
+    "id": "epictetus-enchiridion-8",
+    "author": "Epicteto",
+    "work": "Manual",
+    "reference": "8",
+    "text_pt": "Não queira que as coisas aconteçam como você deseja; queira que aconteçam como acontecem, e sua vida seguirá em curso sereno.",
+    "text_source": "Seek not that the things which happen should happen as you wish; but wish the things which happen to be as they are, and you will have a tranquil flow of life.",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "adversidade"
+  },
+  {
+    "id": "epictetus-enchiridion-9",
+    "author": "Epicteto",
+    "work": "Manual",
+    "reference": "9",
+    "text_pt": "A doença é um obstáculo para o corpo, mas não para a vontade, a menos que a própria vontade o queira. Mancar é um obstáculo para a perna, mas não para a vontade.",
+    "text_source": "Disease is an impediment to the body, but not to the will, unless the will itself chooses. Lameness is an impediment to the leg, but not to the will.",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "adversidade"
+  },
+  {
+    "id": "epictetus-enchiridion-12",
+    "author": "Epicteto",
+    "work": "Manual",
+    "reference": "12",
+    "text_pt": "Comece pelas pequenas coisas. Derramou-se o azeite? Roubaram um pouco de vinho? Diga nessa hora: este é o preço da serenidade, este é o preço da paz interior. Nada se obtém de graça.",
+    "text_source": "Begin then from little things. Is the oil spilled? Is a little wine stolen? Say on the occasion, at such price is sold freedom from perturbation; at such price is sold tranquillity, but nothing is got for nothing.",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "disciplina"
+  },
+  {
+    "id": "epictetus-enchiridion-14",
+    "author": "Epicteto",
+    "work": "Manual",
+    "reference": "14",
+    "text_pt": "Quem deseja ser livre não deve desejar nem evitar nada que dependa dos outros; se não observar essa regra, será necessariamente escravo.",
+    "text_source": "Whoever then wishes to be free let him neither wish for anything nor avoid anything which depends on others: if he does not observe this rule, he must be a slave.",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "controle"
+  },
+  {
+    "id": "epictetus-enchiridion-19",
+    "author": "Epicteto",
+    "work": "Manual",
+    "reference": "19",
+    "text_pt": "Você pode ser invencível, se nunca entrar numa disputa cuja vitória não dependa de você.",
+    "text_source": "You can be invincible, if you enter into no contest in which it is not in your power to conquer.",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "controle"
+  },
+  {
+    "id": "epictetus-enchiridion-20",
+    "author": "Epicteto",
+    "work": "Manual",
+    "reference": "20",
+    "text_pt": "Lembre-se: não é quem o xinga ou o agride que o ofende, mas a sua opinião de que isso é ofensivo. Quando alguém o irritar, saiba que foi a sua própria opinião que o irritou.",
+    "text_source": "Remember that it is not he who reviles you or strikes you, who insults you, but it is your opinion about these things as being insulting. When then a man irritates you, you must know that it is your own opinion which has irritated you.",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "emocoes"
+  },
+  {
+    "id": "epictetus-enchiridion-21",
+    "author": "Epicteto",
+    "work": "Manual",
+    "reference": "21",
+    "text_pt": "Tenha diante dos olhos, todos os dias, a morte, o exílio e tudo o que parece terrível, mas sobretudo a morte; assim você nunca pensará em nada mesquinho nem desejará nada em excesso.",
+    "text_source": "Let death and exile and every other thing which appears dreadful be daily before your eyes; but most of all death: and you will never think of anything mean nor will you desire anything extravagantly.",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "memento_mori"
+  },
+  {
+    "id": "epictetus-enchiridion-22",
+    "author": "Epicteto",
+    "work": "Manual",
+    "reference": "22",
+    "text_pt": "Se você permanecer firme nos mesmos princípios, os que antes zombavam de você passarão a admirá-lo; mas, se se deixar vencer por eles, atrairá para si o dobro da zombaria.",
+    "text_source": "And remember that if you abide in the same principles, these men who first ridiculed will afterwards admire you; but if you shall have been overpowered by them, you will bring on yourself double ridicule.",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "disciplina"
+  },
+  {
+    "id": "epictetus-enchiridion-30",
+    "author": "Epicteto",
+    "work": "Manual",
+    "reference": "30",
+    "text_pt": "Ninguém o prejudicará se você não permitir; você só será prejudicado quando julgar que foi prejudicado.",
+    "text_source": "For another will not damage you, unless you choose: but you will be damaged then when you shall think that you are damaged.",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "adversidade"
+  },
+  {
+    "id": "epictetus-enchiridion-42",
+    "author": "Epicteto",
+    "work": "Manual",
+    "reference": "42",
+    "text_pt": "Quando alguém o tratar mal ou falar mal de você, lembre-se de que ele age ou fala assim porque julga que esse é o seu dever.",
+    "text_source": "When any person treats you ill or speaks ill of you, remember that he does this or says this because he thinks that it is his duty.",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "emocoes"
+  },
+  {
+    "id": "epictetus-enchiridion-43",
+    "author": "Epicteto",
+    "work": "Manual",
+    "reference": "43",
+    "text_pt": "Toda coisa tem duas alças: uma pela qual pode ser carregada, outra pela qual não pode.",
+    "text_source": "Everything has two handles, the one by which it may be borne, the other by which it may not.",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "adversidade"
+  },
+  {
+    "id": "epictetus-enchiridion-46",
+    "author": "Epicteto",
+    "work": "Manual",
+    "reference": "46",
+    "text_pt": "Nunca se apresente como filósofo nem fale muito de princípios entre os que não os conhecem; faça, antes, aquilo que deles decorre.",
+    "text_source": "On no occasion call yourself a philosopher, and do not speak much among the uninstructed about theorems (philosophical rules, precepts); but do that which follows from them.",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "disciplina"
+  },
+  {
+    "id": "epictetus-enchiridion-48",
+    "author": "Epicteto",
+    "work": "Manual",
+    "reference": "48",
+    "text_pt": "A marca de quem não tem instrução é nunca esperar de si mesmo proveito ou dano, mas sempre das coisas externas. A marca do filósofo é esperar de si mesmo todo proveito e todo dano.",
+    "text_source": "The condition and characteristic of an uninstructed person is this: he never expects from himself profit (advantage) nor harm, but from externals. The condition and characteristic of a philosopher is this: he expects all advantage and all harm from himself.",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "controle"
+  },
+  {
+    "id": "epictetus-enchiridion-50",
+    "author": "Epicteto",
+    "work": "Manual",
+    "reference": "50",
+    "text_pt": "Foi assim que Sócrates se tornou completo: aperfeiçoando-se em tudo, sem dar atenção a nada além da razão. E você, embora ainda não seja um Sócrates, deve viver como quem deseja ser um.",
+    "text_source": "Socrates in this way became perfect, in all things improving himself, attending to nothing except to reason. But you, though you are not yet a Socrates, ought to live as one who wishes to be a Socrates.",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "disciplina"
+  },
+  {
+    "id": "epictetus-discourses-1-1-a",
+    "author": "Epicteto",
+    "work": "Discursos",
+    "reference": "1.1",
+    "text_pt": "Eu, acorrentado? Você pode prender minha perna, mas a minha vontade nem o próprio Zeus pode dominar.",
+    "text_source": "Me, in chains? You may fetter my leg, but my will not even Zeus himself can overpower.",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "controle"
+  },
+  {
+    "id": "epictetus-discourses-1-1-b",
+    "author": "Epicteto",
+    "work": "Discursos",
+    "reference": "1.1",
+    "text_pt": "Tenho de morrer. Mas preciso morrer lamentando? Tenho de ser acorrentado. Preciso também me lamentar? Tenho de partir para o exílio. Alguém me impede de partir sorrindo, com serenidade e contentamento?",
+    "text_source": "I must die. Must I then die lamenting? I must be put in chains. Must I then also lament? I must go into exile. Does any man then hinder me from going with smiles and cheerfulness and contentment?",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "memento_mori"
+  },
+  {
+    "id": "epictetus-discourses-1-15",
+    "author": "Epicteto",
+    "work": "Discursos",
+    "reference": "1.15",
+    "text_pt": "Nada de grande surge de repente, nem mesmo a uva ou o figo. Se você me disser agora que quer um figo, responderei que é preciso tempo: que primeiro floresça, depois dê fruto e, por fim, amadureça.",
+    "text_source": "Nothing great, said Epictetus, is produced suddenly, since not even the grape or the fig is. If you say to me now that you want a fig, I will answer to you that it requires time: let it flower first, then put forth fruit, and then ripen.",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "disciplina"
+  },
+  {
+    "id": "epictetus-discourses-1-18",
+    "author": "Epicteto",
+    "work": "Discursos",
+    "reference": "1.18",
+    "text_pt": "Por que, então, nos irritamos? Será porque damos tanto valor às coisas que esses homens nos tiram? Não admire suas roupas, e você não se irritará com o ladrão.",
+    "text_source": "Why then are we angry? Is it because we value so much the things of which these men rob us? Do not admire your clothes, and then you will not be angry with the thief.",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "emocoes"
+  },
+  {
+    "id": "epictetus-discourses-1-24",
+    "author": "Epicteto",
+    "work": "Discursos",
+    "reference": "1.24",
+    "text_pt": "São as dificuldades que mostram quem os homens são. Por isso, quando uma dificuldade cair sobre você, lembre-se de que Deus, como um treinador de lutadores, o colocou diante de um adversário duro.",
+    "text_source": "It is circumstances (difficulties) which show what men are. Therefore when a difficulty falls upon you, remember that God, like a trainer of wrestlers, has matched you with a rough young man.",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "adversidade"
+  },
+  {
+    "id": "epictetus-discourses-2-1",
+    "author": "Epicteto",
+    "work": "Discursos",
+    "reference": "2.1",
+    "text_pt": "O que é a morte? Uma máscara de tragédia. Vire-a e examine-a: veja, ela não morde. Este pobre corpo terá de se separar do espírito, agora ou mais tarde, assim como já esteve separado dele antes.",
+    "text_source": "What is death? A tragic mask. Turn it and examine it. See, it does not bite. The poor body must be separated from the spirit either now or later as it was separated from it before.",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "memento_mori"
+  },
+  {
+    "id": "epictetus-discourses-2-5",
+    "author": "Epicteto",
+    "work": "Discursos",
+    "reference": "2.5",
+    "text_pt": "Também na vida a tarefa principal é esta: distinguir e separar as coisas, e dizer: o que é externo não depende de mim; a vontade depende de mim. Onde buscarei o bem e o mal? Dentro, no que é meu.",
+    "text_source": "Thus then in life also the chief business is this: distinguish and separate things, and say: Externals are not in my power: will is in my power. Where shall I seek the good and the bad? Within, in the things which are my own.",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "controle"
+  },
+  {
+    "id": "epictetus-discourses-2-18-a",
+    "author": "Epicteto",
+    "work": "Discursos",
+    "reference": "2.18",
+    "text_pt": "Todo hábito e toda capacidade se mantêm e crescem pelas ações correspondentes: o hábito de andar, andando; o de correr, correndo. Se quer ser um bom leitor, leia; se quer escrever, escreva.",
+    "text_source": "Every habit and faculty is maintained and increased by the corresponding actions: the habit of walking by walking, the habit of running by running. If you would be a good reader, read; if a writer, write.",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "disciplina"
+  },
+  {
+    "id": "epictetus-discourses-2-18-b",
+    "author": "Epicteto",
+    "work": "Discursos",
+    "reference": "2.18",
+    "text_pt": "Se você não quer ser uma pessoa irritadiça, não alimente o hábito: não lhe dê nada que o faça crescer. No início, mantenha a calma e conte os dias em que não se irritou.",
+    "text_source": "If then you wish not to be of an angry temper, do not feed the habit: throw nothing on it which will increase it: at first keep quiet, and count the days on which you have not been angry.",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "emocoes"
+  },
+  {
+    "id": "epictetus-discourses-3-10",
+    "author": "Epicteto",
+    "work": "Discursos",
+    "reference": "3.10",
+    "text_pt": "Agora é a hora da febre: que seja bem suportada. Agora é a hora da sede: suporte-a bem. Agora é a hora da fome: suporte-a bem. Isso não está em seu poder? Quem vai impedi-lo?",
+    "text_source": "Now is the time for the fever. Let it be borne well. Now is the time for thirst, bear it well. Now is the time for hunger, bear it well. Is it not in your power? Who shall hinder you?",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "adversidade"
+  },
+  {
+    "id": "epictetus-discourses-3-24",
+    "author": "Epicteto",
+    "work": "Discursos",
+    "reference": "3.24",
+    "text_pt": "Que mal há em sussurrar, enquanto beija seu filho: amanhã você vai morrer; e dizer a um amigo: amanhã você partirá, ou eu partirei, e nunca mais nos veremos?",
+    "text_source": "What harm is it while you are kissing your child to say with a lisping voice: To-morrow you will die; and to a friend also: To-morrow you will go away or I shall, and never shall we see one another again?",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "memento_mori"
+  },
+  {
+    "id": "epictetus-discourses-4-10",
+    "author": "Epicteto",
+    "work": "Discursos",
+    "reference": "4.10",
+    "text_pt": "O que você deseja estar fazendo quando a morte o encontrar? Eu, de minha parte, gostaria de ser encontrado fazendo algo próprio de um homem: algo benéfico, útil ao bem comum, nobre.",
+    "text_source": "What then do you wish to be doing when you are found by death? I, for my part, would wish to be found doing something which belongs to a man, beneficent, suitable to the general interest, noble.",
+    "source_url": "https://www.gutenberg.org/ebooks/10661",
+    "pillar": "memento_mori"
+  },
+  {
+    "id": "marcus-meditations-4-3",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "4.3",
+    "text_pt": "Os homens buscam refúgios: casas no campo, praias e montanhas; e você também costuma desejar muito essas coisas. Mas isso é próprio das pessoas mais comuns, pois está em seu poder, sempre que quiser, retirar-se para dentro de si mesmo.",
+    "text_source": "Men seek retreats for themselves, houses in the country, sea-shores, and mountains; and thou too art wont to desire such things very much. But this is altogether a mark of the most common sort of men, for it is in thy power whenever thou shalt choose to retire into thyself.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "controle"
+  },
+  {
+    "id": "marcus-meditations-5-19",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "5.19",
+    "text_pt": "As coisas em si não tocam a alma, nem no menor grau; não têm acesso a ela nem podem movê-la. Só a alma move a si mesma, e conforme os juízos que decide formar, assim se tornam para ela as coisas que se apresentam.",
+    "text_source": "Things themselves touch not the soul, not in the least degree; nor have they admission to the soul, nor can they turn or move the soul: but the soul turns and moves itself alone, and whatever judgments it may think proper to make, such it makes for itself the things which present themselves to it.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "controle"
+  },
+  {
+    "id": "marcus-meditations-6-52",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "6.52",
+    "text_pt": "Está em nosso poder não ter opinião sobre algo e não nos perturbarmos por dentro, pois as coisas, por si mesmas, não têm o poder de formar nossos juízos.",
+    "text_source": "It is in our power to have no opinion about a thing, and not to be disturbed in our soul; for things themselves have no natural power to form our judgments.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "controle"
+  },
+  {
+    "id": "marcus-meditations-8-47",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "8.47",
+    "text_pt": "Se algo externo o aflige, não é essa coisa que o perturba, mas o seu próprio julgamento sobre ela. E está em seu poder apagar esse julgamento agora mesmo.",
+    "text_source": "If thou art pained by any external thing, it is not this thing that disturbs thee, but thy own judgment about it. And it is in thy power to wipe out this judgment now.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "controle"
+  },
+  {
+    "id": "marcus-meditations-12-22",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "12.22",
+    "text_pt": "Considere que tudo é opinião, e a opinião está em seu poder. Abandone a sua opinião quando quiser e, como o navegante que contornou o promontório, você encontrará calmaria, tudo estável e uma baía sem ondas.",
+    "text_source": "Consider that everything is opinion, and opinion is in thy power. Take away then, when thou choosest, thy opinion, and like a mariner who has doubled the promontory, thou wilt find calm, everything stable, and a waveless bay.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "controle"
+  },
+  {
+    "id": "marcus-meditations-7-2",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "7.2",
+    "text_pt": "Posso ter sobre qualquer coisa a opinião que devo ter. Se posso, por que me perturbo? As coisas exteriores à minha mente não têm relação nenhuma com ela.",
+    "text_source": "I can have that opinion about anything which I ought to have. If I can, why am I disturbed? The things which are external to my mind have no relation at all to my mind.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "controle"
+  },
+  {
+    "id": "marcus-meditations-8-29",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "8.29",
+    "text_pt": "Apague suas fantasias dizendo a si mesmo com frequência: agora está em meu poder não deixar nesta alma maldade, desejo ou perturbação alguma; olho todas as coisas, vejo sua natureza e uso cada uma conforme o seu valor.",
+    "text_source": "Wipe out thy imaginations by often saying to thyself: Now it is in my power to let no badness be in this soul, nor desire, nor any perturbation at all; but looking at all things I see what is their nature, and I use each according to its value.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "controle"
+  },
+  {
+    "id": "marcus-meditations-9-40",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "9.40",
+    "text_pt": "Não é melhor usar, como pessoa livre, o que está em seu poder do que desejar, de modo servil e humilhante, o que não está?",
+    "text_source": "Well, then, is it not better to use what is in thy power like a free man than to desire in a slavish and abject way what is not in thy power?",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "controle"
+  },
+  {
+    "id": "marcus-meditations-7-16",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "7.16",
+    "text_pt": "A mente que nos governa não carece de nada, a não ser que crie para si uma carência; por isso está livre de perturbação e de obstáculos, desde que não perturbe nem impeça a si mesma.",
+    "text_source": "The leading principle in itself wants nothing, unless it makes a want for itself; and therefore it is both free from perturbation and unimpeded, if it does not disturb and impede itself.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "controle"
+  },
+  {
+    "id": "marcus-meditations-11-13",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "11.13",
+    "text_pt": "Suponha que alguém me despreze. Isso é com ele. Eu, porém, cuidarei de não ser visto fazendo ou dizendo nada que mereça desprezo.",
+    "text_source": "Suppose any man shall despise me. Let him look to that himself. But I will look to this, that I be not discovered doing or saying anything deserving of contempt.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "controle"
+  },
+  {
+    "id": "marcus-meditations-4-49-a",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "4.49",
+    "text_pt": "Seja como o promontório contra o qual as ondas se quebram sem parar: ele permanece firme e amansa a fúria das águas ao seu redor.",
+    "text_source": "Be like the promontory against which the waves continually break, but it stands firm and tames the fury of the water around it.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "adversidade"
+  },
+  {
+    "id": "marcus-meditations-4-49-b",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "4.49",
+    "text_pt": "Em toda ocasião que o leve à irritação, lembre-se de aplicar este princípio: isto não é uma desgraça; suportá-lo com nobreza é que é boa sorte.",
+    "text_source": "Remember too on every occasion which leads thee to vexation to apply this principle; not that this is a misfortune, but that to bear it nobly is good fortune.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "adversidade"
+  },
+  {
+    "id": "marcus-meditations-5-20",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "5.20",
+    "text_pt": "A mente converte todo obstáculo à sua ação em auxílio; assim, o que era impedimento se torna impulso para agir, e o que é obstáculo no caminho nos ajuda a seguir por ele.",
+    "text_source": "for the mind converts and changes every hindrance to its activity into an aid; and so that which is a hindrance is made a furtherance to an act; and that which is an obstacle on the road helps us on this road.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "adversidade"
+  },
+  {
+    "id": "marcus-meditations-7-61",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "7.61",
+    "text_pt": "A arte de viver se parece mais com a do lutador do que com a do dançarino: deve estar pronta e firme para enfrentar ataques repentinos e inesperados.",
+    "text_source": "The art of life is more like the wrestler's art than the dancer's, in respect of this, that it should stand ready and firm to meet onsets which are sudden and unexpected.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "adversidade"
+  },
+  {
+    "id": "marcus-meditations-10-3",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "10.3",
+    "text_pt": "Lembre-se de que a natureza o fez capaz de suportar tudo aquilo que a sua própria opinião pode tornar suportável, ao pensar que suportá-lo é do seu interesse ou do seu dever.",
+    "text_source": "Remember, however, that thou art formed by nature to bear everything, with respect to which it depends on thy own opinion to make it endurable and tolerable, by thinking that it is either thy interest or thy duty to do this.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "adversidade"
+  },
+  {
+    "id": "marcus-meditations-5-18",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "5.18",
+    "text_pt": "Nada acontece a alguém que a natureza não o tenha feito capaz de suportar. As mesmas coisas acontecem a outro, e ele, por não perceber o que houve ou por querer mostrar grandeza, permanece firme e ileso.",
+    "text_source": "Nothing happens to any man which he is not formed by nature to bear. The same things happen to another, and either because he does not see that they have happened, or because he would show a great spirit, he is firm and remains unharmed.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "adversidade"
+  },
+  {
+    "id": "marcus-meditations-6-11",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "6.11",
+    "text_pt": "Quando as circunstâncias o obrigarem a se perturbar, volte depressa a si mesmo e não fique fora do tom além do que a pressão dura; você dominará melhor a harmonia voltando sempre a ela.",
+    "text_source": "When thou hast been compelled by circumstances to be disturbed in a manner, quickly return to thyself, and do not continue out of tune longer than the compulsion lasts; for thou wilt have more mastery over the harmony by continually recurring to it.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "adversidade"
+  },
+  {
+    "id": "marcus-meditations-7-64",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "7.64",
+    "text_pt": "Na maioria das dores, que esta lição de Epicuro o ajude: a dor não é insuportável nem eterna, se você lembrar que ela tem limites e não acrescentar nada a ela com a imaginação.",
+    "text_source": "Indeed in the case of most pains let this remark of Epicurus aid thee, that pain is neither intolerable nor everlasting, if thou bearest in mind that it has its limits, and if thou addest nothing to it in imagination",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "adversidade"
+  },
+  {
+    "id": "marcus-meditations-7-68",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "7.68",
+    "text_pt": "Está em seu poder viver livre de toda coação, na maior tranquilidade de espírito, ainda que o mundo inteiro grite contra você e ainda que feras despedacem o corpo que o envolve.",
+    "text_source": "It is in thy power to live free from all compulsion in the greatest tranquillity of mind, even if all the world cry out against thee as much as they choose, and even if wild beasts tear in pieces the members of this kneaded matter which has grown around thee.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "adversidade"
+  },
+  {
+    "id": "marcus-meditations-10-33",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "10.33",
+    "text_pt": "A inteligência e a razão são capazes de atravessar tudo o que se opõe a elas, do modo como a natureza as formou e como elas escolhem.",
+    "text_source": "But intelligence and reason are able to go through everything that opposes them, and in such manner as they are formed by nature and as they choose.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "adversidade"
+  },
+  {
+    "id": "marcus-meditations-5-1",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "5.1",
+    "text_pt": "De manhã, quando se levantar sem vontade, tenha este pensamento: estou me levantando para o trabalho de um ser humano. Por que estou insatisfeito, se vou fazer aquilo para que existo e para que vim ao mundo?",
+    "text_source": "In the morning when thou risest unwillingly, let this thought be present,--I am rising to the work of a human being. Why then am I dissatisfied if I am going to do the things for which I exist and for which I was brought into the world?",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "disciplina"
+  },
+  {
+    "id": "marcus-meditations-10-16",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "10.16",
+    "text_pt": "Pare de discutir como deve ser um homem bom. Seja um.",
+    "text_source": "No longer talk at all about the kind of man that a good man ought to be, but be such.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "disciplina"
+  },
+  {
+    "id": "marcus-meditations-6-2",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "6.2",
+    "text_pt": "Que não faça diferença sentir frio ou calor, se você está cumprindo o seu dever; estar com sono ou descansado; ser criticado ou elogiado; estar morrendo ou fazendo outra coisa.",
+    "text_source": "Let it make no difference to thee whether thou art cold or warm, if thou art doing thy duty; and whether thou art drowsy or satisfied with sleep; and whether ill-spoken of or praised; and whether dying or doing something else.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "disciplina"
+  },
+  {
+    "id": "marcus-meditations-4-24",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "4.24",
+    "text_pt": "A maior parte do que dizemos e fazemos é desnecessária; quem elimina isso ganha mais tempo e menos inquietação. Por isso, em cada ocasião, pergunte a si mesmo: isto é uma das coisas desnecessárias?",
+    "text_source": "For the greatest part of what we say and do being unnecessary, if a man takes this away, he will have more leisure and less uneasiness. Accordingly, on every occasion a man should ask himself, Is this one of the unnecessary things?",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "disciplina"
+  },
+  {
+    "id": "marcus-meditations-7-69",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "7.69",
+    "text_pt": "A perfeição do caráter está nisto: viver cada dia como se fosse o último, sem agitação, sem apatia e sem fingimento.",
+    "text_source": "The perfection of moral character consists in this, in passing every day as the last, and in being neither violently excited nor torpid nor playing the hypocrite.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "disciplina"
+  },
+  {
+    "id": "marcus-meditations-2-5",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "2.5",
+    "text_pt": "A cada momento, concentre-se firmemente, como um romano e como um homem, em fazer o que tem nas mãos com dignidade simples e perfeita, com afeto, liberdade e justiça, livrando-se de todos os outros pensamentos.",
+    "text_source": "Every moment think steadily as a Roman and a man to do what thou hast in hand with perfect and simple dignity, and feeling of affection, and freedom, and justice, and to give thyself relief from all other thoughts.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "disciplina"
+  },
+  {
+    "id": "marcus-meditations-8-32",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "8.32",
+    "text_pt": "É seu dever ordenar bem a vida em cada ato; se cada ato cumpre o seu papel tanto quanto possível, contente-se. E ninguém pode impedir que cada ato cumpra o seu papel.",
+    "text_source": "It is thy duty to order thy life well in every single act; and if every act does its duty as far as is possible, be content; and no one is able to hinder thee so that each act shall not do its duty.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "disciplina"
+  },
+  {
+    "id": "marcus-meditations-6-19",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "6.19",
+    "text_pt": "Se algo é difícil para você, não pense que é impossível para o ser humano; mas, se algo é possível ao ser humano e conforme à sua natureza, pense que também está ao seu alcance.",
+    "text_source": "If a thing is difficult to be accomplished by thyself, do not think that it is impossible for man: but if anything is possible for man and conformable to his nature, think that this can be attained by thyself too.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "disciplina"
+  },
+  {
+    "id": "marcus-meditations-12-17",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "12.17",
+    "text_pt": "Se não é certo, não faça. Se não é verdade, não diga.",
+    "text_source": "If it is not right, do not do it: if it is not true, do not say it.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "disciplina"
+  },
+  {
+    "id": "marcus-meditations-8-22",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "8.22",
+    "text_pt": "Você sofre isso com justiça, pois prefere tornar-se bom amanhã a ser bom hoje.",
+    "text_source": "Thou sufferest this justly: for thou choosest rather to become good to-morrow than to be good to-day.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "disciplina"
+  },
+  {
+    "id": "marcus-meditations-6-6",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "6.6",
+    "text_pt": "A melhor forma de se vingar é não se tornar igual a quem lhe fez mal.",
+    "text_source": "The best way of avenging thyself is not to become like [the wrong-doer].",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "emocoes"
+  },
+  {
+    "id": "marcus-meditations-11-18",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "11.18",
+    "text_pt": "Quanto mais a mente se aproxima da libertação de toda paixão, mais se aproxima da força; e assim como a dor é sinal de fraqueza, a raiva também é.",
+    "text_source": "For in the same degree in which a man's mind is nearer to freedom from all passion, in the same degree also is it nearer to strength: and as the sense of pain is a characteristic of weakness, so also is anger.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "emocoes"
+  },
+  {
+    "id": "marcus-meditations-7-26",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "7.26",
+    "text_pt": "Quando alguém lhe fizer mal, considere logo que ideia de bem e de mal o levou a errar. Ao perceber isso, você terá pena dele e não sentirá espanto nem raiva.",
+    "text_source": "When a man has done thee any wrong, immediately consider with what opinion about good or evil he has done wrong. For when thou hast seen this, thou wilt pity him, and wilt neither wonder nor be angry.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "emocoes"
+  },
+  {
+    "id": "marcus-meditations-10-30",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "10.30",
+    "text_pt": "Quando se ofender com a falha de alguém, volte-se logo para si e reflita em que você erra de modo parecido: por exemplo, ao pensar que dinheiro, prazer ou um pouco de fama são bens.",
+    "text_source": "When thou art offended at any man's fault, forthwith turn to thyself and reflect in what like manner thou dost err thyself; for example, in thinking that money is a good thing, or pleasure, or a bit of reputation, and the like.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "emocoes"
+  },
+  {
+    "id": "marcus-meditations-8-36",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "8.36",
+    "text_pt": "Não se perturbe pensando na vida inteira. Não deixe sua mente abraçar de uma vez todos os problemas que você espera enfrentar; em cada ocasião, pergunte: o que há nisto de realmente insuportável?",
+    "text_source": "Do not disturb thyself by thinking of the whole of thy life. Let not thy thoughts at once embrace all the various troubles which thou mayest expect to befall thee: but on every occasion ask thyself, What is there in this which is intolerable and past bearing?",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "emocoes"
+  },
+  {
+    "id": "marcus-meditations-9-13",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "9.13",
+    "text_pt": "Hoje saí de todo problema; ou melhor, expulsei todo problema, pois ele não estava fora, mas dentro de mim, nas minhas opiniões.",
+    "text_source": "To-day I have got out of all trouble, or rather I have cast out all trouble, for it was not outside, but within and in my opinions.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "emocoes"
+  },
+  {
+    "id": "marcus-meditations-4-7",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "4.7",
+    "text_pt": "Elimine a sua opinião, e desaparece a queixa: \"fui prejudicado\". Elimine a queixa \"fui prejudicado\", e o prejuízo desaparece.",
+    "text_source": "Take away thy opinion, and then there is taken away the complaint, \"I have been harmed.\" Take away the complaint, \"I have been harmed,\" and the harm is taken away.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "emocoes"
+  },
+  {
+    "id": "marcus-meditations-9-42",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "9.42",
+    "text_pt": "Quando a falta de vergonha de alguém o ofender, pergunte-se de imediato: é possível que não existam pessoas sem vergonha no mundo? Não é. Então não exija o impossível.",
+    "text_source": "When thou art offended with any man's shameless conduct, immediately ask thyself, Is it possible, then, that shameless men should not be in the world? It is not possible. Do not, then, require what is impossible.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "emocoes"
+  },
+  {
+    "id": "marcus-meditations-12-4",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "12.4",
+    "text_pt": "Muitas vezes me perguntei como cada pessoa ama a si mesma mais do que a todos os outros, mas dá menos valor à própria opinião sobre si do que à opinião alheia.",
+    "text_source": "I have often wondered how it is that every man loves himself more than all the rest of men, but yet sets less value on his own opinion of himself than on the opinion of others.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "emocoes"
+  },
+  {
+    "id": "marcus-meditations-8-59",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "8.59",
+    "text_pt": "As pessoas existem umas para as outras. Ensine-as, então, ou tenha paciência com elas.",
+    "text_source": "Men exist for the sake of one another. Teach them then, or bear with them.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "emocoes"
+  },
+  {
+    "id": "marcus-meditations-4-17",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "4.17",
+    "text_pt": "Não aja como se fosse viver dez mil anos. A morte paira sobre você. Enquanto vive, enquanto está em seu poder, seja bom.",
+    "text_source": "Do not act as if thou wert going to live ten thousand years. Death hangs over thee. While thou livest, while it is in thy power, be good.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "memento_mori"
+  },
+  {
+    "id": "marcus-meditations-7-21",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "7.21",
+    "text_pt": "Está perto o dia em que você esquecerá tudo; e perto o dia em que todos esquecerão você.",
+    "text_source": "Near is thy forgetfulness of all things; and near the forgetfulness of thee by all.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "memento_mori"
+  },
+  {
+    "id": "marcus-meditations-2-14",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "2.14",
+    "text_pt": "Ainda que você fosse viver três mil anos, ou dez mil vezes isso, lembre-se: ninguém perde outra vida senão a que vive agora, nem vive outra senão a que agora perde.",
+    "text_source": "Though thou shouldest be going to live three thousand years and as many times ten thousand years, still remember that no man loses any other life than this which he now lives, nor lives any other than this which he now loses.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "memento_mori"
+  },
+  {
+    "id": "marcus-meditations-4-43",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "4.43",
+    "text_pt": "O tempo é como um rio feito de acontecimentos, uma correnteza violenta: mal algo é visto, já é levado embora; outra coisa toma o seu lugar, e também ela será levada.",
+    "text_source": "Time is like a river made up of the events which happen, and a violent stream; for as soon as a thing has been seen, it is carried away, and another comes in its place, and this will be carried away too.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "memento_mori"
+  },
+  {
+    "id": "marcus-meditations-7-56",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "7.56",
+    "text_pt": "Considere-se morto, como se sua vida tivesse se completado até agora; e viva de acordo com a natureza o tempo que ainda lhe é concedido.",
+    "text_source": "Consider thyself to be dead, and to have completed thy life up to the present time; and live according to nature the remainder which is allowed thee.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "memento_mori"
+  },
+  {
+    "id": "marcus-meditations-9-33",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "9.33",
+    "text_pt": "Tudo o que você vê logo perecerá, e quem assistir a esse fim também perecerá em breve. E quem morre na velhice mais extrema chegará à mesma condição de quem morreu cedo.",
+    "text_source": "All that thou seest will quickly perish, and those who have been spectators of its dissolution will very soon perish too. And he who dies at the extremest old age will be brought into the same condition with him who died prematurely.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "memento_mori"
+  },
+  {
+    "id": "marcus-meditations-10-34",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "10.34",
+    "text_pt": "Mais um pouco, e você fechará os olhos; e quem o acompanhou até o túmulo logo será chorado por outro.",
+    "text_source": "A little time, and thou shalt close thy eyes; and him who has attended thee to thy grave another soon will lament.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "memento_mori"
+  },
+  {
+    "id": "marcus-meditations-4-48",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "4.48",
+    "text_pt": "Atravesse este breve espaço de tempo de acordo com a natureza e termine sua jornada em paz, como a azeitona que cai quando madura, bendizendo a natureza que a gerou e agradecendo à árvore em que cresceu.",
+    "text_source": "Pass then through this little space of time conformably to nature, and end thy journey in content, as an olive falls off when it is ripe, blessing nature who produced it, and thanking the tree on which it grew.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "memento_mori"
+  },
+  {
+    "id": "marcus-meditations-3-1",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "3.1",
+    "text_pt": "Precisamos nos apressar, não só porque a cada dia estamos mais perto da morte, mas também porque a capacidade de compreender as coisas se apaga antes.",
+    "text_source": "We must make haste, then, not only because we are daily nearer to death, but also because the conception of things and the understanding of them cease first.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "memento_mori"
+  },
+  {
+    "id": "marcus-meditations-9-3",
+    "author": "Marco Aurélio",
+    "work": "Meditações",
+    "reference": "9.3",
+    "text_pt": "Não despreze a morte; aceite-a de bom grado, pois ela também é uma das coisas que a natureza quer.",
+    "text_source": "Do not despise death, but be well content with it, since this too is one of those things which nature wills.",
+    "source_url": "https://www.gutenberg.org/ebooks/15877",
+    "pillar": "memento_mori"
+  },
+  {
+    "id": "socrates-apologia-29",
+    "author": "Sócrates",
+    "work": "Apologia (Platão)",
+    "reference": "29",
+    "text_source": "For the fear of death is indeed the pretence of wisdom, and not real wisdom, being a pretence of knowing the unknown; and no one knows whether death, which men in their fear apprehend to be the greatest evil, may not be the greatest good.",
+    "text_pt": "O medo da morte é apenas aparência de sabedoria, e não sabedoria real: é fingir conhecer o desconhecido. Ninguém sabe se a morte, que os homens, por medo, julgam o maior dos males, não será o maior dos bens.",
+    "pillar": "memento_mori",
+    "source_url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Apology"
+  },
+  {
+    "id": "socrates-apologia-41",
+    "author": "Sócrates",
+    "work": "Apologia (Platão)",
+    "reference": "41",
+    "text_source": "Wherefore, O judges, be of good cheer about death, and know of a certainty, that no evil can happen to a good man, either in life or after death.",
+    "text_pt": "Por isso, juízes, tenham bom ânimo diante da morte e saibam com certeza que nenhum mal pode atingir um homem bom, nem em vida nem depois da morte.",
+    "pillar": "memento_mori",
+    "source_url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Apology"
+  },
+  {
+    "id": "socrates-apologia-39",
+    "author": "Sócrates",
+    "work": "Apologia (Platão)",
+    "reference": "39",
+    "text_source": "The difficulty, my friends, is not to avoid death, but to avoid unrighteousness; for that runs faster than death.",
+    "text_pt": "A dificuldade, meus amigos, não está em escapar da morte, mas em escapar da injustiça, pois ela corre mais depressa que a morte.",
+    "pillar": "disciplina",
+    "source_url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Apology"
+  },
+  {
+    "id": "socrates-criton-48",
+    "author": "Sócrates",
+    "work": "Críton (Platão)",
+    "reference": "48",
+    "text_source": "Then, my friend, we must not regard what the many say of us: but what he, the one man who has understanding of just and unjust, will say, and what the truth will say.",
+    "text_pt": "Então, meu amigo, não devemos dar importância ao que a maioria diz de nós, mas ao que dirá aquele que entende do justo e do injusto, e ao que dirá a própria verdade.",
+    "pillar": "controle",
+    "source_url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Crito"
+  },
+  {
+    "id": "socrates-criton-49",
+    "author": "Sócrates",
+    "work": "Críton (Platão)",
+    "reference": "49",
+    "text_source": "Then we ought not to retaliate or render evil for evil to any one, whatever evil we may have suffered from him.",
+    "text_pt": "Não devemos, portanto, retaliar nem pagar o mal com o mal a ninguém, seja qual for o mal que dele tenhamos sofrido.",
+    "pillar": "emocoes",
+    "source_url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Crito"
+  },
+  {
+    "id": "seneca-sobre-a-ira-2-29",
+    "author": "Sêneca",
+    "work": "Sobre a ira",
+    "reference": "Livro II, cap. XXIX",
+    "text_source": "The greatest remedy for anger is delay: beg anger to grant you this at the first, not in order that it may pardon the offence, but that it may form a right judgment about it: if it delays, it will come to an end.",
+    "text_pt": "O maior remédio para a ira é a demora. Peça à ira que lhe conceda isso logo de início, não para que perdoe a ofensa, mas para que a julgue com acerto. Se ela tardar, chegará ao fim.",
+    "pillar": "emocoes",
+    "source_url": "https://www.gutenberg.org/ebooks/64576"
+  },
+  {
+    "id": "seneca-sobre-a-ira-3-36",
+    "author": "Sêneca",
+    "work": "Sobre a ira",
+    "reference": "Livro III, cap. XXXVI",
+    "text_source": "It was the custom of Sextius when the day was over, and he had betaken himself to rest, to inquire of his spirit: “What bad habit of yours have you cured to-day? what vice have you checked? in what respect are you better?”",
+    "text_pt": "Sêxtio tinha o costume, ao fim do dia, quando se recolhia para descansar, de interrogar a própria alma: “Que mau hábito você curou hoje? Que vício refreou? Em que você está melhor?”",
+    "pillar": "disciplina",
+    "source_url": "https://www.gutenberg.org/ebooks/64576"
+  },
+  {
+    "id": "seneca-sobre-a-ira-3-43",
+    "author": "Sêneca",
+    "work": "Sobre a ira",
+    "reference": "Livro III, cap. XLIII",
+    "text_source": "Let us rather pass the little remnant of our lives in peace and quiet: may no one loathe us when we lie dead.",
+    "text_pt": "Passemos antes o pouco que nos resta de vida em paz e sossego, para que ninguém nos odeie quando jazermos mortos.",
+    "pillar": "memento_mori",
+    "source_url": "https://www.gutenberg.org/ebooks/64576"
+  },
+  {
+    "id": "seneca-tranquilidade-11-a",
+    "author": "Sêneca",
+    "work": "Da tranquilidade da alma",
+    "reference": "cap. XI",
+    "text_source": "It is too late to school the mind to endurance of peril after peril has come.",
+    "text_pt": "É tarde demais para ensinar a mente a suportar o perigo depois que o perigo já chegou.",
+    "pillar": "adversidade",
+    "source_url": "https://www.gutenberg.org/ebooks/64576"
+  },
+  {
+    "id": "seneca-tranquilidade-11-b",
+    "author": "Sêneca",
+    "work": "Da tranquilidade da alma",
+    "reference": "cap. XI",
+    "text_source": "Know then that every station of life is transitory, and that what has ever happened to anybody may happen to you also.",
+    "text_pt": "Saiba, então, que toda condição de vida é passageira, e que aquilo que já aconteceu a alguém também pode acontecer a você.",
+    "pillar": "adversidade",
+    "source_url": "https://www.gutenberg.org/ebooks/64576"
+  },
+  {
+    "id": "schopenhauer-sabedoria-de-vida-1",
+    "author": "Schopenhauer",
+    "work": "A sabedoria da vida",
+    "reference": "cap. I",
+    "text_source": "A good, temperate, gentle character can be happy in needy circumstances, whilst a covetous, envious and malicious man, even if he be the richest in the world, goes miserable.",
+    "text_pt": "Um caráter bom, moderado e brando pode ser feliz mesmo na necessidade, ao passo que um homem cobiçoso, invejoso e maldoso, ainda que seja o mais rico do mundo, vive infeliz.",
+    "pillar": "controle",
+    "source_url": "https://www.gutenberg.org/ebooks/10741"
+  },
+  {
+    "id": "schopenhauer-conselhos-45",
+    "author": "Schopenhauer",
+    "work": "Conselhos e máximas",
+    "reference": "cap. III, seção 45",
+    "text_source": "Anger and hatred should never be shown otherwise than in what you do; and feelings will be all the more effective in action, in so far as you avoid the exhibition of them in any other way.",
+    "text_pt": "A raiva e o ódio nunca devem se mostrar senão naquilo que você faz; e os sentimentos serão tanto mais eficazes na ação quanto mais você evitar exibi-los de qualquer outra forma.",
+    "pillar": "emocoes",
+    "source_url": "https://www.gutenberg.org/ebooks/10715"
+  },
+  {
+    "id": "schopenhauer-conselhos-53",
+    "author": "Schopenhauer",
+    "work": "Conselhos e máximas",
+    "reference": "cap. IV, seção 53",
+    "text_source": "It is a cowardly soul that shrinks or grows faint and despondent as soon as the storm begins to gather, or even when the first cloud appears on the horizon.",
+    "text_pt": "É covarde a alma que se encolhe, fraqueja e desanima assim que a tempestade começa a se formar, ou mesmo quando a primeira nuvem surge no horizonte.",
+    "pillar": "adversidade",
+    "source_url": "https://www.gutenberg.org/ebooks/10715"
+  },
+  {
+    "id": "schopenhauer-conselhos-13",
+    "author": "Schopenhauer",
+    "work": "Conselhos e máximas",
+    "reference": "cap. II, seção 13",
+    "text_source": "In all matters affecting our weal or woe, we should be careful not to let our imagination run away with us, and build no castles in the air.",
+    "text_pt": "Em tudo o que diz respeito ao nosso bem ou ao nosso mal, devemos tomar cuidado para não deixar a imaginação nos arrastar, e não construir castelos no ar.",
+    "pillar": "disciplina",
+    "source_url": "https://www.gutenberg.org/ebooks/10715"
+  },
+  {
+    "id": "seneca-letters-78-13",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "78.13",
+    "text_pt": "Tudo depende da opinião; a ambição, o luxo e a ganância remontam à opinião. É conforme a opinião que sofremos.",
+    "text_source": "Everything depends on opinion; ambition, luxury, greed, hark back to opinion. It is according to opinion that we suffer.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_78",
+    "pillar": "controle"
+  },
+  {
+    "id": "seneca-letters-123-3",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "123.3",
+    "text_pt": "Ter tudo o que deseja não está no poder de ninguém; está em seu poder não desejar o que não tem e usar com alegria o que lhe chega.",
+    "text_source": "To have whatsoever he wishes is in no man’s power; it is in his power not to wish for what he has not, but cheerfully to employ what comes to him.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_123",
+    "pillar": "controle"
+  },
+  {
+    "id": "seneca-letters-98-2",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "98.2",
+    "text_pt": "A alma é mais poderosa que qualquer fortuna; por sua própria ação conduz seus assuntos para um lado ou para outro, e por sua própria força pode produzir uma vida feliz ou uma vida miserável.",
+    "text_source": "For the soul is more powerful than any sort of Fortune; by its own agency it guides its affairs in either direction, and of its own power it can produce a happy life, or a wretched one.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_98",
+    "pillar": "controle"
+  },
+  {
+    "id": "seneca-letters-37-4",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "37.4",
+    "text_pt": "Avance com passo firme. Se quer ter tudo sob seu controle, coloque-se sob o controle da razão; se a razão for sua governante, você governará muitas coisas.",
+    "text_source": "Proceed with steady step, and if you would have all things under your control, put yourself under the control of reason; if reason becomes your ruler, you will become ruler over many.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_37",
+    "pillar": "controle"
+  },
+  {
+    "id": "seneca-letters-23-2",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "23.2",
+    "text_pt": "Chegamos ao topo quando sabemos em que encontramos alegria e quando não colocamos nossa felicidade sob o controle das coisas externas.",
+    "text_source": "We have reached the heights if we know what it is that we find joy in and if we have not placed our happiness in the control of externals.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_23",
+    "pillar": "controle"
+  },
+  {
+    "id": "seneca-letters-98-1",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "98.1",
+    "text_pt": "Nunca acredite que é feliz quem depende da prosperidade. É um apoio frágil esse prazer nas coisas que vêm de fora; a alegria que entrou de fora um dia irá embora.",
+    "text_source": "You need never believe that anyone who depends upon happiness is happy! It is a fragile support—this delight in adventitious things; the joy which entered from without will some day depart.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_98",
+    "pillar": "controle"
+  },
+  {
+    "id": "seneca-letters-96-1",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "96.1",
+    "text_pt": "Para mim, não existe desgraça para um homem, a menos que haja no universo algo que ele considere uma desgraça. No dia em que eu achar algo insuportável, não suportarei a mim mesmo.",
+    "text_source": "If you ask me, I think that for a man there is no misery unless there be something in the universe which he thinks miserable. I shall not endure myself on that day when I find anything unendurable.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_96",
+    "pillar": "controle"
+  },
+  {
+    "id": "seneca-letters-107-7",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "107.7",
+    "text_pt": "Não podemos mudar essa ordem das coisas; o que podemos é adquirir um coração firme, digno de pessoas de bem, para suportar com coragem o acaso e viver em harmonia com a Natureza.",
+    "text_source": "And we cannot change this order of things; but what we can do is to acquire stout hearts, worthy of good men, thereby courageously enduring chance and placing ourselves in harmony with Nature.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_107",
+    "pillar": "controle"
+  },
+  {
+    "id": "seneca-letters-107-9",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "107.9",
+    "text_pt": "Aconteça o que acontecer, considere que tinha de acontecer, e não se disponha a protestar contra a Natureza.",
+    "text_source": "Whatever happens, assume that it was bound to happen, and do not be willing to rail at Nature.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_107",
+    "pillar": "controle"
+  },
+  {
+    "id": "seneca-letters-15-11",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "15.11",
+    "text_pt": "Quanto ao que o destino incerto do futuro reserva, por que eu deveria exigir da Fortuna que me dê, em vez de exigir de mim mesmo que não deseje?",
+    "text_source": "As to what the future’s uncertain lot has in store, why should I demand of Fortune that she give, rather than demand of myself that I should not crave?",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_15",
+    "pillar": "controle"
+  },
+  {
+    "id": "seneca-letters-107-12",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "107.12",
+    "text_pt": "Esta é a grande alma: a de quem se entregou ao destino. Fraco e degenerado é quem luta, difama a ordem do universo e prefere corrigir os deuses a corrigir a si mesmo.",
+    "text_source": "Here is your great soul—the man who has given himself over to Fate; on the other hand, that man is a weakling and a degenerate who struggles and maligns the order of the universe and would rather reform the gods than reform himself.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_107",
+    "pillar": "controle"
+  },
+  {
+    "id": "seneca-letters-96-5",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "96.5",
+    "text_pt": "Pergunte a si mesmo o que escolheria se um deus lhe desse a escolha: a vida numa taverna ou a vida num acampamento militar. E, no entanto, a vida é de fato uma batalha.",
+    "text_source": "Ask yourself voluntarily which you would choose if some god gave you the choice—life in a café or life in a camp. And yet life, Lucilius, is really a battle.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_96",
+    "pillar": "adversidade"
+  },
+  {
+    "id": "seneca-letters-96-3",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "96.3",
+    "text_pt": "Você não sabia, quando pedia uma vida longa, que era isto que estava pedindo? Uma vida longa inclui todos esses problemas, assim como uma longa viagem inclui poeira, lama e chuva.",
+    "text_source": "But come, did you not know, when you prayed for long life, that this was what you were praying for? A long life includes all these troubles, just as a long journey includes dust and mud and rain.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_96",
+    "pillar": "adversidade"
+  },
+  {
+    "id": "seneca-letters-96-2",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "96.2",
+    "text_pt": "Tudo o que nos faz gemer ou recuar faz parte do imposto da vida: coisas que você nunca deve esperar nem procurar evitar.",
+    "text_source": "Now all the things which cause us to groan or recoil, are part of the tax of life—things, my dear Lucilius, which you should never hope and never seek to escape.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_96",
+    "pillar": "adversidade"
+  },
+  {
+    "id": "seneca-letters-107-2",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "107.2",
+    "text_pt": "O programa da vida é o mesmo de uma casa de banhos, de uma multidão ou de uma viagem: às vezes atiram coisas em você, às vezes elas o atingem por acaso. A vida não é coisa delicada.",
+    "text_source": "The programme of life is the same as that of a bathing establishment, a crowd, or a journey: sometimes things will be thrown at you, and sometimes they will strike you by accident. Life is not a dainty business.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_107",
+    "pillar": "adversidade"
+  },
+  {
+    "id": "seneca-letters-18-6-a",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "18.6",
+    "text_pt": "É justamente nos tempos sem preocupação que a alma deve se fortalecer de antemão para os momentos de maior aperto, e é enquanto a Fortuna é gentil que deve se proteger contra a violência dela.",
+    "text_source": "It is precisely in times of immunity from care that the soul should toughen itself beforehand for occasions of greater stress, and it is while Fortune is kind that it should fortify itself against her violence.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_18",
+    "pillar": "adversidade"
+  },
+  {
+    "id": "seneca-letters-104-26",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "104.26",
+    "text_pt": "A quem essas tarefas não pareceram mais fáceis ao serem feitas? Nossa falta de confiança não vem da dificuldade; a dificuldade é que vem da nossa falta de confiança.",
+    "text_source": "To what man did they not seem easier in the doing? Our lack of confidence is not the result of difficulty; the difficulty comes from our lack of confidence.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_104",
+    "pillar": "adversidade"
+  },
+  {
+    "id": "seneca-letters-91-4",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "91.4",
+    "text_pt": "Nada deve nos pegar de surpresa. Nossa mente deve ir à frente, ao encontro de todos os problemas, e devemos considerar não o que costuma acontecer, mas o que pode acontecer.",
+    "text_source": "Therefore, nothing ought to be unexpected by us. Our minds should be sent forward in advance to meet all problems, and we should consider, not what is wont to happen, but what can happen.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_91",
+    "pillar": "adversidade"
+  },
+  {
+    "id": "seneca-letters-91-7",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "91.7",
+    "text_pt": "Devemos refletir sobre todas as eventualidades e fortalecer a mente contra os males que possam vir.",
+    "text_source": "We should therefore reflect upon all contingencies, and should fortify our minds against the evils which may possibly come.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_91",
+    "pillar": "adversidade"
+  },
+  {
+    "id": "seneca-letters-91-13",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "91.13",
+    "text_pt": "Muitas vezes um revés apenas abriu espaço para uma fortuna mais próspera. Muitas construções caíram só para se erguerem mais alto.",
+    "text_source": "Oftentimes a reverse has but made room for more prosperous fortune. Many structures have fallen only to rise to a greater height.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_91",
+    "pillar": "adversidade"
+  },
+  {
+    "id": "seneca-letters-107-4",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "107.4",
+    "text_pt": "Todos enfrentam com coragem um perigo para o qual se prepararam muito antes, e suportam até as dificuldades se já praticaram como enfrentá-las. Os despreparados, ao contrário, entram em pânico diante das coisas mais insignificantes.",
+    "text_source": "Everyone approaches courageously a danger which he has prepared himself to meet long before, and withstands even hardships if he has previously practised how to meet them. But, contrariwise, the unprepared are panic-stricken even at the most trifling things.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_107",
+    "pillar": "adversidade"
+  },
+  {
+    "id": "seneca-letters-104-22",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "104.22",
+    "text_pt": "O único porto seguro contra as tempestades desta vida é desprezar o futuro, manter-se firme e estar pronto para receber de peito aberto os golpes da Fortuna, sem se esconder nem dar as costas.",
+    "text_source": "The only harbour safe from the seething storms of this life is scorn of the future, a firm stand, a readiness to receive Fortune’s missiles full in the breast, neither skulking nor turning the back.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_104",
+    "pillar": "adversidade"
+  },
+  {
+    "id": "seneca-letters-18-6-b",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "18.6",
+    "text_pt": "Se você não quer que alguém vacile quando a crise chegar, treine-o antes que ela chegue.",
+    "text_source": "If you would not have a man flinch when the crisis comes, train him before it comes.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_18",
+    "pillar": "disciplina"
+  },
+  {
+    "id": "seneca-letters-7-8",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "7.8",
+    "text_pt": "Recolha-se em si mesmo tanto quanto puder. Conviva com quem fará de você alguém melhor. Acolha aqueles que você mesmo pode melhorar. O processo é mútuo, pois as pessoas aprendem enquanto ensinam.",
+    "text_source": "Withdraw into yourself, as far as you can. Associate with those who will make a better man of you. Welcome those whom you yourself can improve. The process is mutual; for men learn while they teach.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_7",
+    "pillar": "disciplina"
+  },
+  {
+    "id": "seneca-letters-16-1",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "16.1",
+    "text_pt": "É preciso perseverar e ganhar novas forças com o estudo contínuo, até que aquilo que é apenas uma boa inclinação se torne um propósito firme.",
+    "text_source": "You must persevere, must develop new strength by continuous study, until that which is only a good inclination becomes a good settled purpose.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_16",
+    "pillar": "disciplina"
+  },
+  {
+    "id": "seneca-letters-16-3",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "16.3",
+    "text_pt": "A filosofia não é um truque para agradar o público; não foi feita para exibição. É questão não de palavras, mas de fatos.",
+    "text_source": "Philosophy is no trick to catch the public; it is not devised for show. It is a matter, not of words, but of facts.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_16",
+    "pillar": "disciplina"
+  },
+  {
+    "id": "seneca-letters-76-3",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "76.3",
+    "text_pt": "Continue aprendendo enquanto for ignorante, até o fim da vida, se o provérbio estiver certo. E o provérbio serve aqui como nenhum outro: “Enquanto viver, continue aprendendo a viver.”",
+    "text_source": "You should keep learning as long as you are ignorant,—even to the end of your life, if there is anything in the proverb. And the proverb suits the present case as well as any: “As long as you live, keep learning how to live.”",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_76",
+    "pillar": "disciplina"
+  },
+  {
+    "id": "seneca-letters-50-7",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "50.7",
+    "text_pt": "Não há ninguém em quem a boa mente chegue antes da má. É a mente má que primeiro se apodera de todos nós. Aprender a virtude é desaprender o vício.",
+    "text_source": "There is no man to whom a good mind comes before an evil one. It is the evil mind that gets first hold on all of us. Learning virtue means unlearning vice.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_50",
+    "pillar": "disciplina"
+  },
+  {
+    "id": "seneca-letters-116-8",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "116.8",
+    "text_pt": "Nós, mortais, recebemos da natureza força suficiente, se ao menos a usarmos, se reunirmos nossas capacidades para nos ajudar, ou pelo menos para não nos atrapalhar. O motivo é a falta de vontade; a desculpa, a incapacidade.",
+    "text_source": "We mortals have been endowed with sufficient strength by nature, if only we use this strength, if only we concentrate our powers and rouse them all to help us or at least not to hinder us. The reason is unwillingness, the excuse, inability.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_116",
+    "pillar": "disciplina"
+  },
+  {
+    "id": "seneca-letters-6-7",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "6.7",
+    "text_pt": "“Que progresso eu fiz, você pergunta? Comecei a ser amigo de mim mesmo.” Foi de fato um grande ganho; uma pessoa assim nunca está sozinha.",
+    "text_source": "“What progress, you ask, have I made? I have begun to be a friend to myself.” That was indeed a great benefit; such a person can never be alone.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_6",
+    "pillar": "disciplina"
+  },
+  {
+    "id": "seneca-letters-28-1",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "28.1",
+    "text_pt": "Você precisa mudar de alma, não de clima. Ainda que atravesse vastos mares e, como diz Virgílio, deixe para trás terras e cidades, seus defeitos o seguirão aonde quer que você vá.",
+    "text_source": "You need a change of soul rather than a change of climate. Though you may cross vast spaces of sea, and though, as our Vergil remarks, Lands and cities are left astern, your faults will follow you whithersoever you travel.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_28",
+    "pillar": "disciplina"
+  },
+  {
+    "id": "seneca-letters-71-3",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "71.3",
+    "text_pt": "Nossos planos fracassam porque não têm alvo. Quando alguém não sabe para qual porto está navegando, nenhum vento é o vento certo.",
+    "text_source": "Our plans miscarry because they have no aim. When a man does not know what harbour he is making for, no wind is the right wind.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_71",
+    "pillar": "disciplina"
+  },
+  {
+    "id": "seneca-letters-2-6",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "2.6",
+    "text_pt": "Pobre não é quem tem pouco, mas quem deseja mais.",
+    "text_source": "It is not the man who has too little, but the man who craves more, that is poor.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_2",
+    "pillar": "disciplina"
+  },
+  {
+    "id": "seneca-letters-13-4",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "13.4",
+    "text_pt": "Há mais coisas que nos assustam do que coisas que nos esmagam; sofremos mais vezes na imaginação do que na realidade.",
+    "text_source": "There are more things, Lucilius, likely to frighten us than there are to crush us; we suffer more often in imagination than in reality.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_13",
+    "pillar": "emocoes"
+  },
+  {
+    "id": "seneca-letters-13-5",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "13.5",
+    "text_pt": "Algumas coisas nos atormentam mais do que deveriam; outras, antes do que deveriam; e outras nos atormentam quando nem deveriam nos atormentar. Temos o hábito de exagerar, imaginar ou antecipar a dor.",
+    "text_source": "Accordingly, some things torment us more than they ought; some torment us before they ought; and some torment us when they ought not to torment us at all. We are in the habit of exaggerating, or imagining, or anticipating, sorrow.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_13",
+    "pillar": "emocoes"
+  },
+  {
+    "id": "seneca-letters-13-10",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "13.10",
+    "text_pt": "É provável que alguns problemas nos atinjam, mas isso ainda não é um fato presente. Quantas vezes o inesperado aconteceu! Quantas vezes o esperado nunca se realizou!",
+    "text_source": "It is likely that some troubles will befall us; but it is not a present fact. How often has the unexpected happened! How often has the expected never come to pass!",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_13",
+    "pillar": "emocoes"
+  },
+  {
+    "id": "seneca-letters-24-1",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "24.1",
+    "text_pt": "É tolice ser infeliz agora porque talvez você venha a ser infeliz algum dia.",
+    "text_source": "It is indeed foolish to be unhappy now because you may be unhappy at some future time.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_24",
+    "pillar": "emocoes"
+  },
+  {
+    "id": "seneca-letters-98-7",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "98.7",
+    "text_pt": "Não há nada mais miserável nem mais tolo do que o medo antecipado. Que loucura é antecipar os próprios problemas!",
+    "text_source": "And there is nothing more wretched or foolish than premature fear. What madness it is to anticipate one’s troubles!",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_98",
+    "pillar": "emocoes"
+  },
+  {
+    "id": "seneca-letters-5-9",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "5.9",
+    "text_pt": "Muitos dos nossos bens se voltam contra nós: a memória traz de volta as torturas do medo, enquanto a previsão as antecipa. Só o presente não torna ninguém infeliz.",
+    "text_source": "Many of our blessings bring bane to us; for memory recalls the tortures of fear, while foresight anticipates them. The present alone can make no man wretched.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_5",
+    "pillar": "emocoes"
+  },
+  {
+    "id": "seneca-letters-5-7",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "5.7",
+    "text_pt": "Assim como a mesma corrente prende o prisioneiro e o soldado que o vigia, a esperança e o medo, por diferentes que sejam, caminham juntos: o medo segue a esperança.",
+    "text_source": "Just as the same chain fastens the prisoner and the soldier who guards him, so hope and fear, dissimilar as they are, keep step together; fear follows hope.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_5",
+    "pillar": "emocoes"
+  },
+  {
+    "id": "seneca-letters-18-15",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "18.15",
+    "text_pt": "Assim é com a raiva: o resultado de uma grande raiva é a loucura. Por isso ela deve ser evitada, não só para escaparmos do excesso, mas para termos uma mente sã.",
+    "text_source": "So it is with anger, my dear Lucilius; the outcome of a mighty anger is madness, and hence anger should be avoided, not merely that we may escape excess, but that we may have a healthy mind.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_18",
+    "pillar": "emocoes"
+  },
+  {
+    "id": "seneca-letters-116-3",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "116.3",
+    "text_pt": "Toda emoção, no início, é fraca. Depois ela se agita e ganha força à medida que avança; é mais fácil impedi-la do que abandoná-la.",
+    "text_source": "Every emotion at the start is weak. Afterwards, it rouses itself and gains strength by progress; it is more easy to forestall it than to forgo it.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_116",
+    "pillar": "emocoes"
+  },
+  {
+    "id": "seneca-letters-63-1",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "63.1",
+    "text_pt": "Que os olhos não fiquem secos quando perdemos um amigo, mas que também não transbordem. Podemos chorar, mas não devemos nos lamentar aos gritos.",
+    "text_source": "Let not the eyes be dry when we have lost a friend, nor let them overflow. We may weep, but we must not wail.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_63",
+    "pillar": "emocoes"
+  },
+  {
+    "id": "seneca-letters-78-14",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "78.14",
+    "text_pt": "Duas coisas devem ser arrancadas de uma vez por todas: o medo do sofrimento futuro e a lembrança do sofrimento passado. Esta já não me diz respeito; aquele ainda não me diz respeito.",
+    "text_source": "Two elements must therefore be rooted out once for all,—the fear of future suffering, and the recollection of past suffering; since the latter no longer concerns me, and the former concerns me not yet.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_78",
+    "pillar": "emocoes"
+  },
+  {
+    "id": "seneca-letters-1-2",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "1.2",
+    "text_pt": "Mostre-me alguém que dê valor ao seu tempo, que avalie cada dia, que entenda que está morrendo diariamente. Erramos ao ver a morte à nossa frente: grande parte dela já passou.",
+    "text_source": "What man can you show me who places any value on his time, who reckons the worth of each day, who understands that he is dying daily? For we are mistaken when we look forward to death; the major portion of death has already passed.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_1",
+    "pillar": "memento_mori"
+  },
+  {
+    "id": "seneca-letters-1-3",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "1.3",
+    "text_pt": "Nada é nosso, exceto o tempo. A natureza nos confiou a posse desta única coisa, tão fugaz e escorregadia que qualquer um que queira pode nos tirar dela.",
+    "text_source": "Nothing, Lucilius, is ours, except time. We were entrusted by nature with the ownership of this single thing, so fleeting and slippery that anyone who will can oust us from possession.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_1",
+    "pillar": "memento_mori"
+  },
+  {
+    "id": "seneca-letters-12-8",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "12.8",
+    "text_pt": "Cada dia deve ser ordenado como se fechasse a série, como se arrematasse e completasse nossa existência.",
+    "text_source": "Hence, every day ought to be regulated as if it closed the series, as if it rounded out and completed our existence.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_12",
+    "pillar": "memento_mori"
+  },
+  {
+    "id": "seneca-letters-26-10",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "26.10",
+    "text_pt": "Quem aprendeu a morrer desaprendeu a ser escravo; está acima de qualquer poder externo, ou pelo menos fora do alcance dele.",
+    "text_source": "He who has learned to die has unlearned slavery; he is above any external power, or, at any rate, he is beyond it.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_26",
+    "pillar": "memento_mori"
+  },
+  {
+    "id": "seneca-letters-24-20",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "24.20",
+    "text_pt": "Não é a última gota que esvazia a clepsidra, mas tudo o que escorreu antes; do mesmo modo, a hora final em que deixamos de existir não traz a morte sozinha: apenas completa o processo.",
+    "text_source": "It is not the last drop that empties the water-clock, but all that which previously has flowed out; similarly, the final hour when we cease to exist does not of itself bring death; it merely of itself completes the death-process.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_24",
+    "pillar": "memento_mori"
+  },
+  {
+    "id": "seneca-letters-77-20",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "77.20",
+    "text_pt": "Com a vida acontece o mesmo que com uma peça: não importa quanto dura a ação, mas quão boa é a atuação. Não faz diferença em que ponto você para.",
+    "text_source": "It is with life as it is with a play,—it matters not how long the action is spun out, but how good the acting is. It makes no difference at what point you stop.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_77",
+    "pillar": "memento_mori"
+  },
+  {
+    "id": "seneca-letters-93-2",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "93.2",
+    "text_pt": "Devemos nos esforçar não para viver muito, mas para viver bem; para uma vida longa basta o destino, mas para viver bem é preciso a alma.",
+    "text_source": "We should strive, not to live long, but to live rightly; for to achieve long life you have need of Fate only, but for right living you need the soul.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_93",
+    "pillar": "memento_mori"
+  },
+  {
+    "id": "seneca-letters-101-10",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "101.10",
+    "text_pt": "Comece agora mesmo a viver e conte cada dia como uma vida à parte.",
+    "text_source": "Therefore, my dear Lucilius, begin at once to live, and count each separate day as a separate life.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_101",
+    "pillar": "memento_mori"
+  },
+  {
+    "id": "seneca-letters-61-2",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "61.2",
+    "text_pt": "Antes de envelhecer, procurei viver bem; agora que estou velho, procurarei morrer bem. E morrer bem é morrer de bom grado.",
+    "text_source": "Before I became old I tried to live well; now that I am old, I shall try to die well; but dying well means dying gladly.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_61",
+    "pillar": "memento_mori"
+  },
+  {
+    "id": "seneca-letters-49-10",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "49.10",
+    "text_pt": "Mostre-me que o bem da vida não depende de sua duração, mas do uso que fazemos dela; e que é possível, ou melhor, comum, que alguém que viveu muito tenha vivido pouco.",
+    "text_source": "Show me that the good in life does not depend upon life’s length, but upon the use we make of it; also, that it is possible, or rather usual, for a man who has lived long to have lived too little.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_49",
+    "pillar": "memento_mori"
+  },
+  {
+    "id": "seneca-letters-4-5",
+    "author": "Sêneca",
+    "work": "Cartas a Lucílio",
+    "reference": "4.5",
+    "text_pt": "A maioria das pessoas oscila, infeliz, entre o medo da morte e as dificuldades da vida; não querem viver e, no entanto, não sabem morrer.",
+    "text_source": "Most men ebb and flow in wretchedness between the fear of death and the hardships of life; they are unwilling to live, and yet they do not know how to die.",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_4",
+    "pillar": "memento_mori"
+  }
+]

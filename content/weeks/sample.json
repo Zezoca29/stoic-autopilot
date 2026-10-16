@@ -1,0 +1,38 @@
+{
+  "week": "sample",
+  "items": [
+    {
+      "id": "sample-r1",
+      "type": "reel",
+      "scheduled_at": "2026-10-15T23:00:00-03:00",
+      "pillar": "emocoes",
+      "hook": "Você sofre mais na sua cabeça do que na vida real.",
+      "quote_id": "seneca-letters-13-4",
+      "script": "Você sofre mais na sua cabeça do que na vida real. Sêneca escreveu isso a um amigo há quase dois mil anos: há mais coisas que nos assustam do que coisas que nos esmagam; sofremos mais vezes na imaginação do que na realidade. Pense na última noite em que você perdeu o sono por algo que ainda não tinha acontecido. Quantas daquelas tragédias chegaram de verdade? A mente antecipa a dor e cobra juros de uma dívida que talvez nunca exista. Hoje, quando a ansiedade apertar, faça uma pergunta simples: isso está acontecendo agora, ou só na minha cabeça? Separe o fato da história que você conta sobre ele. Siga a Fortaleza Interior para mais lições dos estoicos.",
+      "footage_keywords": ["stormy sea night", "rain window dark"],
+      "caption": "Sêneca, Carta 13: sofremos mais na imaginação do que na realidade. A maior parte do que tira o seu sono nunca acontece. Qual preocupação sua de ontem virou realidade hoje?",
+      "hashtags": ["#estoicismo", "#seneca", "#ansiedade", "#filosofia"],
+      "cta": "follow",
+      "platforms": ["instagram", "tiktok"]
+    },
+    {
+      "id": "sample-c1",
+      "type": "carousel",
+      "scheduled_at": "2026-10-15T23:30:00-03:00",
+      "pillar": "controle",
+      "slides": [
+        {"title": "Existe um lugar onde nada te alcança", "body": "Marco Aurélio chamava de retiro interior. Nós chamamos de fortaleza."},
+        {"title": "Todo mundo quer fugir", "body": "Casa de campo, praia, montanha. A gente acha que a paz mora em outro lugar."},
+        {"title": "O que ele escreveu", "body": "Os homens buscam refúgios: casas no campo, praias e montanhas; e você também costuma desejar muito essas coisas. Mas isso é próprio das pessoas mais comuns, pois está em seu poder, sempre que quiser, retirar-se para dentro de si mesmo.", "quote_id": "marcus-meditations-4-3"},
+        {"title": "A fortaleza é por dentro", "body": "Não existe lugar mais tranquilo do que uma mente em ordem. E ela vai com você para qualquer lugar."},
+        {"title": "O que realmente te perturba", "body": "Se algo externo o aflige, não é essa coisa que o perturba, mas o seu próprio julgamento sobre ela. E está em seu poder apagar esse julgamento agora mesmo.", "quote_id": "marcus-meditations-8-47"},
+        {"title": "Como praticar hoje", "body": "Três minutos sem tela. Respire, observe o que te incomoda e pergunte: é o fato ou o meu julgamento sobre ele?"},
+        {"title": "Salve para reler.", "body": "Siga a Fortaleza Interior."}
+      ],
+      "quote_ids": ["marcus-meditations-4-3", "marcus-meditations-8-47"],
+      "caption": "Marco Aurélio, Meditações 4.3: você não precisa de férias para encontrar paz; precisa voltar para dentro. Onde você costuma buscar refúgio?",
+      "hashtags": ["#estoicismo", "#marcoaurelio", "#meditacoes", "#filosofia"],
+      "platforms": ["instagram"]
+    }
+  ]
+}
