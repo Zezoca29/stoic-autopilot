@@ -2,23 +2,40 @@
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,700;1,500&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,500&family=Inter:wght@300;400&display=swap" rel="stylesheet">
 <style>
-  html, body { margin: 0; width: 1080px; height: 1350px; background: #111; color: #f2ede4; }
-  .slide { box-sizing: border-box; width: 1080px; height: 1350px; padding: 120px 100px;
-           display: flex; flex-direction: column; justify-content: center; gap: 48px; position: relative; }
-  .accent { width: 120px; height: 6px; background: #d4af37; }
-  h1 { font-family: 'Cormorant Garamond', serif; font-weight: 700; margin: 0; line-height: 1.1;
+  :root { --stone: #1a1917; --bronze: #b08d57; --bronze-light: #d9bc8c; --ink: #dcd5c9; --muted: #8a8172; }
+  html, body { margin: 0; width: 1080px; height: 1350px; color: var(--ink); background: var(--stone); }
+  /* Stone: fine grain + broad marble veining from SVG turbulence, darkened at the edges. */
+  body {
+    background-image:
+      radial-gradient(ellipse at 50% 40%, rgba(255,255,255,0.05) 0%, rgba(0,0,0,0) 55%, rgba(0,0,0,0.55) 100%),
+      url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1080' height='1350'><filter id='v'><feTurbulence type='fractalNoise' baseFrequency='0.004 0.012' numOctaves='4' seed='7'/><feColorMatrix values='0 0 0 0 0.75  0 0 0 0 0.72  0 0 0 0 0.66  0 0 0 0.16 -0.02'/></filter><rect width='100%' height='100%' filter='url(%23v)'/></svg>"),
+      url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1080' height='1350'><filter id='g'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.6  0 0 0 0 0.56  0 0 0 0 0.5  0 0 0 0.09 0'/></filter><rect width='100%' height='100%' filter='url(%23g)'/></svg>");
+  }
+  .frame { position: absolute; inset: 44px; border: 1px solid rgba(176,141,87,0.35); pointer-events: none; }
+  .slide { box-sizing: border-box; width: 1080px; height: 1350px; padding: 170px 130px 190px;
+           display: flex; flex-direction: column; justify-content: center; gap: 44px; position: relative; }
+  .brand { position: absolute; top: 96px; left: 0; right: 0; text-align: center; font-family: 'Inter', sans-serif;
+           font-size: 22px; font-weight: 400; letter-spacing: 8px; text-transform: uppercase; color: var(--bronze); }
+  .brand::before, .brand::after { content: ""; display: inline-block; width: 60px; height: 1px; background: var(--bronze);
+           vertical-align: middle; margin: 0 22px; opacity: 0.6; }
+  .ornament { font-family: 'Cormorant Garamond', serif; font-size: 220px; line-height: 0.6; height: 90px;
+              color: var(--bronze); opacity: 0.35; margin-bottom: -20px; }
+  h1 { font-family: 'Cormorant Garamond', serif; font-weight: 700; margin: 0; line-height: 1.08; color: var(--bronze-light);
        font-size:{{ 96 if is_cover else 72 }}px; }
-  p { font-family: 'Inter', sans-serif; font-size: 40px; line-height: 1.5; margin: 0; color: #d9d3c7; }
-  .ref { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 40px; color: #d4af37; }
-  .footer { position: absolute; bottom: 72px; left: 100px; right: 100px; display: flex;
-            justify-content: space-between; font-family: 'Inter', sans-serif; font-size: 28px; color: #8c8578; }
+  p { font-family: 'Inter', sans-serif; font-weight: 300; font-size: 40px; line-height: 1.55; margin: 0; color: var(--ink); }
+  .ref { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 40px; color: var(--bronze); }
+  .ref::before { content: "— "; }
+  .footer { position: absolute; bottom: 92px; left: 130px; right: 130px; display: flex; justify-content: space-between;
+            font-family: 'Inter', sans-serif; font-size: 26px; letter-spacing: 1px; color: var(--muted); }
 </style>
 </head>
 <body>
+<div class="frame"></div>
 <div class="slide">
-  <div class="accent"></div>
+  <div class="brand">{{ brand }}</div>
+  {% if reference %}<div class="ornament">&ldquo;</div>{% endif %}
   <h1>{{ slide.title }}</h1>
   {% if slide.body %}<p>{{ slide.body }}</p>{% endif %}
   {% if reference %}<div class="ref">{{ reference }}</div>{% endif %}

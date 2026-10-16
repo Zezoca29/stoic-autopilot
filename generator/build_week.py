@@ -15,16 +15,16 @@ from shared.timeutil import now_local, parse_time
 
 
 def render_item(item, quotes, settings: Settings, output_dir, exclude_footage, *,
-                reel_renderer, carousel_renderer) -> tuple[list[str], str | None]:
-    """Render one item into output_dir/<id>/; returns (media file names, footage id or None)."""
+                reel_renderer, carousel_renderer) -> tuple[list[str], list[str]]:
+    """Render one item into output_dir/<id>/; returns (media file names, footage ids used)."""
     item_dir = Path(output_dir) / item["id"]
     if item["type"] == "reel":
-        footage_id = reel_renderer(item, quotes[item["quote_id"]], item_dir / "work", item_dir / "reel.mp4",
-                                   api_key=require(settings.pixabay_api_key, "PIXABAY_API_KEY"),
-                                   exclude_footage=exclude_footage)
-        return ["reel.mp4"], footage_id
+        footage_ids = reel_renderer(item, quotes[item["quote_id"]], item_dir / "work", item_dir / "reel.mp4",
+                                    api_key=require(settings.pixabay_api_key, "PIXABAY_API_KEY"),
+                                    exclude_footage=exclude_footage, handle=settings.handle)
+        return ["reel.mp4"], footage_ids
     paths = carousel_renderer(item, quotes, item_dir, settings.handle)
-    return [path.name for path in paths], None
+    return [path.name for path in paths], []
 
 
 def build_week(batch_path, *, now, settings, quotes_path=QUOTES_PATH, queue_path=QUEUE_PATH,
@@ -41,14 +41,14 @@ def build_week(batch_path, *, now, settings, quotes_path=QUOTES_PATH, queue_path
     entries, footage_by_item = [], {}
     for item in batch["items"]:
         try:
-            media, footage_id = render_item(item, quotes, settings, output_dir, exclude,
-                                            reel_renderer=reel_renderer, carousel_renderer=carousel_renderer)
+            media, footage_ids = render_item(item, quotes, settings, output_dir, exclude,
+                                             reel_renderer=reel_renderer, carousel_renderer=carousel_renderer)
         except Exception as exc:  # keep going so one run reports every broken item
             errors.append(f"{item['id']}: render failed: {exc}")
             continue
-        if footage_id and footage_id != "fallback":
-            exclude.add(footage_id)
-            footage_by_item[item["id"]] = footage_id
+        used = [footage_id for footage_id in footage_ids if footage_id != "fallback"]
+        exclude.update(used)
+        footage_by_item[item["id"]] = used
         entries.append(make_entry(item, media))
     if errors:
         return errors
@@ -60,8 +60,8 @@ def build_week(batch_path, *, now, settings, quotes_path=QUOTES_PATH, queue_path
     except ValueError as exc:
         return [str(exc)]
     for item in batch["items"]:
-        footage = [footage_by_item[item["id"]]] if item["id"] in footage_by_item else []
-        record_use(history, item_id=item["id"], quote_ids=quote_ids_of(item), footage_ids=footage,
+        record_use(history, item_id=item["id"], quote_ids=quote_ids_of(item),
+                   footage_ids=footage_by_item.get(item["id"], []),
                    on=parse_time(item["scheduled_at"]).date())
     save_queue(queue_path, queue)
     save_history(history_path, history)

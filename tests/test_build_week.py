@@ -7,10 +7,11 @@ from generator.build_week import build_week, preview_item
 from shared.jsonio import read_json, write_json
 
 
-def fake_reel(item, quote, work_dir, out_path, *, api_key, exclude_footage):
+def fake_reel(item, quote, work_dir, out_path, *, api_key, exclude_footage, handle):
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_bytes(b"mp4")
-    return f"pexels:{item['id']}"
+    assert handle == "@estoico"
+    return [f"pixabay:{item['id']}-a", f"pixabay:{item['id']}-b"]
 
 
 def fake_carousel(item, quotes, out_dir, handle):
@@ -54,7 +55,7 @@ def test_successful_build_queues_everything_and_records_history(paths):
     assert carousel["media"] == [f"slide-{n:02d}.jpg" for n in range(1, 7)]
     history = read_json(paths["history_path"])
     assert history["quotes"]["q1"] == {"on": "2026-10-19", "item": "2026-10-19-r1"}
-    assert history["footage"]["pexels:2026-10-19-r1"]["item"] == "2026-10-19-r1"
+    assert history["footage"]["pixabay:2026-10-19-r1-b"]["item"] == "2026-10-19-r1"
 
 
 def test_plan_errors_stop_before_rendering(paths):
@@ -67,10 +68,10 @@ def test_plan_errors_stop_before_rendering(paths):
 
 
 def test_render_failure_reports_item_and_writes_nothing(paths):
-    def flaky_reel(item, quote, work_dir, out_path, *, api_key, exclude_footage):
+    def flaky_reel(item, quote, work_dir, out_path, *, api_key, exclude_footage, handle):
         if item["id"] == "2026-10-19-r3":
             raise RuntimeError("ffmpeg failed: boom")
-        return fake_reel(item, quote, work_dir, out_path, api_key=api_key, exclude_footage=exclude_footage)
+        return fake_reel(item, quote, work_dir, out_path, api_key=api_key, exclude_footage=exclude_footage, handle=handle)
 
     assert run_build(paths, reel_renderer=flaky_reel) == ["2026-10-19-r3: render failed: ffmpeg failed: boom"]
     assert not paths["queue_path"].exists() and not paths["history_path"].exists()
@@ -91,12 +92,12 @@ def test_rebuilding_same_batch_is_allowed(paths):
 def test_footage_is_not_repeated_within_batch(paths):
     seen = []
 
-    def recording_reel(item, quote, work_dir, out_path, *, api_key, exclude_footage):
+    def recording_reel(item, quote, work_dir, out_path, *, api_key, exclude_footage, handle):
         seen.append(set(exclude_footage))
-        return fake_reel(item, quote, work_dir, out_path, api_key=api_key, exclude_footage=exclude_footage)
+        return fake_reel(item, quote, work_dir, out_path, api_key=api_key, exclude_footage=exclude_footage, handle=handle)
 
     run_build(paths, reel_renderer=recording_reel)
-    assert seen[0] == set() and "pexels:2026-10-19-r1" in seen[1]
+    assert seen[0] == set() and {"pixabay:2026-10-19-r1-a", "pixabay:2026-10-19-r1-b"} <= seen[1]
 
 
 def test_preview_renders_one_item_and_can_enqueue(paths):

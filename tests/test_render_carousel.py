@@ -21,3 +21,11 @@ def test_render_carousel_writes_jpeg_slides(tmp_path, quotes):
     assert [p.name for p in paths] == [f"slide-{n:02d}.jpg" for n in range(1, 7)]
     with Image.open(paths[0]) as image:
         assert image.format == "JPEG" and image.size == (1080, 1350)
+
+
+def test_slides_carry_brand_label_and_quote_ornament(quotes):
+    quote_slide = render_html({"title": "T", "body": "B", "quote_id": "q1"}, 2, 6, "@estoico", quotes)
+    plain_slide = render_html({"title": "T", "body": "B"}, 2, 6, "@estoico", quotes)
+    assert 'class="brand"' in quote_slide and "Fortaleza Interior" in quote_slide
+    assert 'class="ornament"' in quote_slide
+    assert 'class="ornament"' not in plain_slide

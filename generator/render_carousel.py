@@ -10,6 +10,7 @@ from shared.config import ROOT
 TEMPLATES_DIR = ROOT / "generator" / "templates"
 SLIDE_WIDTH, SLIDE_HEIGHT = 1080, 1350
 JPEG_QUALITY = 92
+BRAND = "Fortaleza Interior"
 
 _env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=select_autoescape(["html"]))
 
@@ -17,7 +18,7 @@ _env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=select_aut
 def render_html(slide: dict, index: int, total: int, handle: str, quotes: dict) -> str:
     quote = quotes.get(slide["quote_id"]) if slide.get("quote_id") else None
     return _env.get_template("carousel.html").render(
-        slide=slide, index=index, total=total, handle=handle, is_cover=index == 1,
+        slide=slide, index=index, total=total, handle=handle, is_cover=index == 1, brand=BRAND,
         reference=display_reference(quote) if quote else None)
 
 
