@@ -41,8 +41,9 @@ async def _synthesize(text, voice, out_path, communicate_factory) -> list[Word]:
     return words
 
 
-def synthesize(text: str, out_path: Path, voice: str = VOICE, retries: int = 3, wait_seconds: float = 5.0,
-               communicate_factory=_default_factory, sleep=time.sleep) -> list[Word]:
+def synthesize(text: str, out_path: Path, voice: str = VOICE, retries: int = 6, wait_seconds: float = 2,
+               max_wait_seconds: float = 30, communicate_factory=_default_factory, sleep=time.sleep) -> list[Word]:
+    # The endpoint refuses connections in short bursts, so back off exponentially instead of retrying fast.
     last_error = None
     for attempt in range(1, retries + 1):
         try:
@@ -50,5 +51,5 @@ def synthesize(text: str, out_path: Path, voice: str = VOICE, retries: int = 3, 
         except Exception as exc:  # edge-tts surfaces network failures as varied exception types
             last_error = exc
             if attempt < retries:
-                sleep(wait_seconds)
+                sleep(min(wait_seconds * 2 ** (attempt - 1), max_wait_seconds))
     raise TTSError(f"edge-tts failed after {retries} attempts: {last_error}") from last_error

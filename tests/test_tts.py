@@ -45,12 +45,14 @@ def test_synthesize_retries_then_succeeds(tmp_path):
     assert len(calls) == 3 and len(words) == 2
 
 
-def test_synthesize_gives_up_after_three_attempts(tmp_path):
+def test_synthesize_gives_up_after_six_attempts_with_growing_waits(tmp_path):
     def broken(text, voice):
         raise ConnectionError("down")
 
-    with pytest.raises(TTSError, match="after 3 attempts"):
-        synthesize("x", tmp_path / "n.mp3", communicate_factory=broken, sleep=no_sleep)
+    waits = []
+    with pytest.raises(TTSError, match="after 6 attempts"):
+        synthesize("x", tmp_path / "n.mp3", communicate_factory=broken, sleep=waits.append)
+    assert waits == [2, 4, 8, 16, 30]  # the TTS endpoint drops connections in short bursts
 
 
 def test_no_word_boundaries_is_an_error(tmp_path):
