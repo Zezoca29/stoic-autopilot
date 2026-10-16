@@ -10,7 +10,7 @@ Atualizado em 2026-10-15.
 ## Pendências
 
 - 2026-10-16 — Task 21: criar o repositório no GitHub, cadastrar secrets e fazer a primeira publicação real (spike de hospedagem). Depende do Instagram aquecido por 5–7 dias e do token da Meta.
-- 2026-10-15 — Tasks 21–23: repositório no GitHub, primeira publicação real, primeira semana e rotina agendada. Dependem das contas (`docs/setup/accounts.md`).
+- 2026-10-15 — Tasks 22–23: primeira semana completa (dry-run + publicação) e rotina semanal agendada. Dependem das contas (`docs/setup/accounts.md`).
 - 2026-10-15 — Nome do perfil escolhido: Fortaleza Interior (`@fortalezainterior`); falta confirmar se o @ está livre no Instagram e no TikTok.
 - Adiados da revisão: timeout ambíguo no `media_publish` pode duplicar um post; token renovado sem `::add-mask::`.
 
