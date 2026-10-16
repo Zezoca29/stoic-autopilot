@@ -7,7 +7,7 @@ from shared.config import Settings
 TZ = ZoneInfo("America/Sao_Paulo")
 NOW = datetime(2026, 10, 19, 8, 0, tzinfo=TZ)  # Monday 08:00, when the weekly routine runs
 SCRIPT = " ".join(["palavra"] * 100)
-SETTINGS = Settings(pexels_api_key="pexels-key", ig_user_id="17840000", ig_access_token="token",
+SETTINGS = Settings(pixabay_api_key="pixabay-key", ig_user_id="17840000", ig_access_token="token",
                     pages_base_url="https://user.github.io/stoic-autopilot", handle="@estoico")
 
 

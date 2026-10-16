@@ -10,7 +10,7 @@ Segunda 08h (tarefa agendada do Claude, local)
   Claude escreve content/weeks/<lote>.json (citações só do banco)
   generator.build_week
      ├─ check_plan (contagem, cooldown 60d, ganchos, horários)
-     ├─ reel: tts (edge-tts + tempo por palavra) → captions (.ass) → footage (Pexels/fallback) → ffmpeg
+     ├─ reel: tts (edge-tts + tempo por palavra) → captions (.ass) → footage (Pixabay/fallback) → ffmpeg
      ├─ carrossel: Jinja2 + Playwright → JPEG 1080x1350
      ├─ check_media (1080x1920, 30–60 s, < 100 MB)
      └─ grava queue.json + content/history.json só se tudo passou

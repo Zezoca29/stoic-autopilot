@@ -9,7 +9,7 @@ Atualizado em 2026-10-15.
 
 ## Pendências
 
-- 2026-10-15 — Task 20 (resto): renderizar o reel `sample-r1` e aprovar o visual — precisa de `PEXELS_API_KEY` e `IG_HANDLE` no `.env`. Banco (149 citações verificadas), `ROUTINE.md` e `content/weeks/sample.json` já estão prontos; o carrossel `sample-c1` já foi renderizado.
+- 2026-10-15 — Task 20 (resto): renderizar o reel `sample-r1` e aprovar o visual — precisa de `PIXABAY_API_KEY` e `IG_HANDLE` no `.env` (Pexels trocado por Pixabay em 2026-10-16: emissão de chaves do Pexels pausada). Banco (149 citações verificadas), `ROUTINE.md` e `content/weeks/sample.json` já estão prontos; o carrossel `sample-c1` já foi renderizado.
 - 2026-10-15 — Tasks 21–23: repositório no GitHub, primeira publicação real, primeira semana e rotina agendada. Dependem das contas (`docs/setup/accounts.md`).
 - 2026-10-15 — Nome do perfil escolhido: Fortaleza Interior (`@fortalezainterior`); falta confirmar se o @ está livre no Instagram e no TikTok.
 - Adiados da revisão: timeout ambíguo no `media_publish` pode duplicar um post; token renovado sem `::add-mask::`.

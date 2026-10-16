@@ -1,4 +1,4 @@
-"""Background footage from the Pexels API, with a local fallback clip."""
+"""Background footage from the Pixabay video API, with a local fallback clip."""
 import shutil
 from pathlib import Path
 
@@ -6,9 +6,11 @@ import requests
 
 from shared.config import ROOT
 
-SEARCH_URL = "https://api.pexels.com/videos/search"
+SEARCH_URL = "https://pixabay.com/api/videos/"
 MIN_CLIP_SECONDS = 8
-TARGET_HEIGHT = 1920
+MIN_HEIGHT = 720  # ffmpeg crops the landscape frame to 9:16, so smaller sources look blurry
+MAX_DOWNLOAD_BYTES = 80 * 1024 * 1024
+RENDITION_PREFERENCE = ("large", "medium", "small")
 FALLBACK_VIDEO = ROOT / "generator" / "assets" / "fallback.mp4"
 FALLBACK_KEYWORDS = {
     "controle": ["calm ocean", "mountain fog"],
@@ -17,6 +19,7 @@ FALLBACK_KEYWORDS = {
     "emocoes": ["candle flame", "clouds timelapse"],
     "memento_mori": ["marble statue", "hourglass"],
 }
+KEY_REJECTED_STATUSES = (400, 401, 403)  # Pixabay answers an invalid key with 400
 
 
 class FootageError(RuntimeError):
@@ -24,29 +27,32 @@ class FootageError(RuntimeError):
 
 
 def choose_file(video: dict) -> dict | None:
-    portrait = [f for f in video.get("video_files", [])
-                if f.get("file_type") == "video/mp4" and f.get("width") and f.get("height")
-                and f["height"] > f["width"]]
-    return min(portrait, key=lambda f: abs(f["height"] - TARGET_HEIGHT), default=None)
+    renditions = video.get("videos", {})
+    for name in RENDITION_PREFERENCE:
+        rendition = renditions.get(name) or {}
+        if (rendition.get("url") and rendition.get("height", 0) >= MIN_HEIGHT
+                and rendition.get("size", 0) <= MAX_DOWNLOAD_BYTES):
+            return rendition
+    return None
 
 
 def search(keyword: str, api_key: str, session) -> list[dict]:
-    response = session.get(SEARCH_URL, params={"query": keyword, "orientation": "portrait", "per_page": 15},
-                           headers={"Authorization": api_key}, timeout=30)
+    response = session.get(SEARCH_URL, params={"key": api_key, "q": keyword, "video_type": "film",
+                                               "safesearch": "true", "per_page": 20}, timeout=30)
     response.raise_for_status()
-    return response.json().get("videos", [])
+    return response.json().get("hits", [])
 
 
 def pick_video(keywords, pillar, exclude_ids, api_key, session) -> tuple[str, str]:
     for keyword in [*keywords, *FALLBACK_KEYWORDS[pillar]]:
         for video in search(keyword, api_key, session):
-            footage_id = f"pexels:{video['id']}"
+            footage_id = f"pixabay:{video['id']}"
             if footage_id in exclude_ids or video.get("duration", 0) < MIN_CLIP_SECONDS:
                 continue
             chosen = choose_file(video)
             if chosen:
-                return footage_id, chosen["link"]
-    raise FootageError(f"no portrait Pexels video for {keywords} or pillar {pillar}")
+                return footage_id, chosen["url"]
+    raise FootageError(f"no usable Pixabay video for {keywords} or pillar {pillar}")
 
 
 def download(url: str, out_path: Path, session) -> None:
@@ -58,7 +64,7 @@ def download(url: str, out_path: Path, session) -> None:
 
 
 def fetch_footage(keywords, pillar, exclude_ids, out_path, api_key, session=None) -> str:
-    """Save a background clip to out_path; returns 'pexels:<id>' or 'fallback'."""
+    """Save a background clip to out_path; returns 'pixabay:<id>' or 'fallback'."""
     session = session or requests.Session()
     out_path = Path(out_path)
     out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -68,8 +74,9 @@ def fetch_footage(keywords, pillar, exclude_ids, out_path, api_key, session=None
         return footage_id
     except requests.HTTPError as exc:
         status = exc.response.status_code if exc.response is not None else None
-        if status in (401, 403):  # a bad key would otherwise silently give every reel the fallback clip
-            raise FootageError(f"Pexels rejected the API key (HTTP {status}); check PEXELS_API_KEY") from None
+        if status in KEY_REJECTED_STATUSES:  # a bad key would otherwise silently give every reel the fallback clip
+            # the request URL carries the key, so the original message is deliberately not included
+            raise FootageError(f"Pixabay rejected the request (HTTP {status}); check PIXABAY_API_KEY") from None
         return _use_fallback(out_path)
     except (FootageError, requests.RequestException):
         return _use_fallback(out_path)
@@ -77,6 +84,6 @@ def fetch_footage(keywords, pillar, exclude_ids, out_path, api_key, session=None
 
 def _use_fallback(out_path: Path) -> str:
     if not FALLBACK_VIDEO.exists():
-        raise FootageError(f"Pexels unavailable and {FALLBACK_VIDEO} is missing")
+        raise FootageError(f"Pixabay unavailable and {FALLBACK_VIDEO} is missing")
     shutil.copyfile(FALLBACK_VIDEO, out_path)
     return "fallback"

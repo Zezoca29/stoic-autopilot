@@ -20,7 +20,7 @@ def render_item(item, quotes, settings: Settings, output_dir, exclude_footage, *
     item_dir = Path(output_dir) / item["id"]
     if item["type"] == "reel":
         footage_id = reel_renderer(item, quotes[item["quote_id"]], item_dir / "work", item_dir / "reel.mp4",
-                                   api_key=require(settings.pexels_api_key, "PEXELS_API_KEY"),
+                                   api_key=require(settings.pixabay_api_key, "PIXABAY_API_KEY"),
                                    exclude_footage=exclude_footage)
         return ["reel.mp4"], footage_id
     paths = carousel_renderer(item, quotes, item_dir, settings.handle)

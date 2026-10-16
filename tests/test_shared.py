@@ -6,17 +6,17 @@ from shared.timeutil import parse_time
 
 
 def test_load_settings_reads_environment(monkeypatch):
-    monkeypatch.setenv("PEXELS_API_KEY", "pexels-key")
+    monkeypatch.setenv("PIXABAY_API_KEY", "pixabay-key")
     monkeypatch.setenv("PAGES_BASE_URL", "https://user.github.io/stoic-autopilot/")
     monkeypatch.setenv("IG_HANDLE", "@estoico")
     settings = load_settings(env_file=None)
-    assert settings.pexels_api_key == "pexels-key"
+    assert settings.pixabay_api_key == "pixabay-key"
     assert settings.pages_base_url == "https://user.github.io/stoic-autopilot"
     assert settings.handle == "@estoico"
 
 
 def test_load_settings_missing_values(monkeypatch):
-    for name in ("PEXELS_API_KEY", "IG_USER_ID", "IG_ACCESS_TOKEN", "PAGES_BASE_URL", "IG_HANDLE"):
+    for name in ("PIXABAY_API_KEY", "IG_USER_ID", "IG_ACCESS_TOKEN", "PAGES_BASE_URL", "IG_HANDLE"):
         monkeypatch.delenv(name, raising=False)
     settings = load_settings(env_file=None)
     assert settings.ig_user_id is None
