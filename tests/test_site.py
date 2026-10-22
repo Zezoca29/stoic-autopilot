@@ -1,3 +1,5 @@
+import re
+
 from shared.config import ROOT
 
 SITE = ROOT / "site"
@@ -20,6 +22,7 @@ def test_policy_pages_are_complete():
 def test_book_links_carry_affiliate_tag_and_disclosure():
     index = (SITE / "index.html").read_text(encoding="utf-8")
     book_links = [line for line in index.splitlines() if 'class="book"' in line]
-    assert len(book_links) == 5
-    assert all("tag=fortalezain08-20" in line for line in book_links)
+    assert len(book_links) == 6
+    assert all(re.search(r'href="https://www\.amazon\.com\.br/dp/[0-9A-Z]{10}\?tag=fortalezain08-20"', line)
+               for line in book_links)
     assert "Como Associado da Amazon, recebo por compras qualificadas." in index
