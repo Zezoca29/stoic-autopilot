@@ -11,7 +11,7 @@ Atualizado em 2026-10-15.
 
 - 2026-10-16 — Task 21: criar o repositório no GitHub, cadastrar secrets e fazer a primeira publicação real (spike de hospedagem). Depende do Instagram aquecido por 5–7 dias e do token da Meta.
 - 2026-10-15 — Tasks 22–23: primeira semana completa (dry-run + publicação) e rotina semanal agendada. Dependem das contas (`docs/setup/accounts.md`).
-- 2026-10-22 — Instagram criado: Fortaleza Interior (`@fortalezainterior.br`), conta pública de Criador. App Meta `stoic-autopilot` com `instagram_business_basic` e `instagram_business_content_publish`; convite de testador enviado (aceitar no Instagram) e token ainda por gerar.
+- 2026-10-22 — Instagram criado: Fortaleza Interior (`@fortalezainterior.br`), conta pública de Criador. App Meta `stoic-autopilot` com `instagram_business_basic` e `instagram_business_content_publish`; testador aceito; token gerado e verificado (2026-10-22: /me responde fortalezainterior.br, ID confere). Falta: repositório no GitHub, secrets e primeira publicação.
 - Adiados da revisão: timeout ambíguo no `media_publish` pode duplicar um post; token renovado sem `::add-mask::`.
 
 ## Como verificar
