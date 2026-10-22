@@ -15,3 +15,11 @@ def test_policy_pages_are_complete():
         assert html.lower().startswith("<!doctype html>")
         assert "CONTATO@EXEMPLO.COM" not in html
         assert "mailto:" in html
+
+
+def test_book_links_carry_affiliate_tag_and_disclosure():
+    index = (SITE / "index.html").read_text(encoding="utf-8")
+    book_links = [line for line in index.splitlines() if 'class="book"' in line]
+    assert len(book_links) == 5
+    assert all("tag=fortalezain08-20" in line for line in book_links)
+    assert "Como Associado da Amazon, recebo por compras qualificadas." in index
