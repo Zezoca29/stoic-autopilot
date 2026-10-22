@@ -6,3 +6,4 @@ __pycache__/
 *.pyc
 generator/music/*.mp3
 products/*/dist/
+products/diario_30/content.json
