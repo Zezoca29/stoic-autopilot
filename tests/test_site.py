@@ -33,3 +33,9 @@ def test_free_journal_download_is_linked_and_present():
     assert 'href="mini-diario-estoico-7-dias.pdf"' in index
     assert index.index('class="freebie"') < index.index('class="book"')  # the free download comes first
     assert (SITE / "mini-diario-estoico-7-dias.pdf").read_bytes().startswith(b"%PDF")
+
+
+def test_paid_journal_button_sits_between_freebie_and_books():
+    index = (SITE / "index.html").read_text(encoding="utf-8")
+    assert 'href="https://pay.kiwify.com.br/3Zr2t0e"' in index
+    assert index.index('class="freebie"') < index.index('class="product"') < index.index('class="book"')

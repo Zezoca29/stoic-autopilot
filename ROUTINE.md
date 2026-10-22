@@ -18,9 +18,10 @@ Execute na raiz do repositório, em ordem, com `.venv/Scripts/python`. Nunca lei
    - `script` (80–145 palavras): gancho (a frase de `hook`) → ensinamento com a citação literal → aplicação prática para hoje → CTA.
    - `cta` dos 7 reels, sem repetir o mesmo tipo em dias seguidos:
      - `affiliate` em 2 reels: o script termina com "O livro está no link da bio.";
-     - `freebie` em 1 ou 2 reels: o script termina com "Baixe grátis o Mini Diário Estoico no link da bio." e a `caption` também menciona o diário grátis no link da bio;
-     - `follow` ou `save` nos demais.
-   - No último slide de 1 dos 3 carrosséis, use `{"title": "Baixe grátis o Mini Diário Estoico", "body": "7 dias de exercícios estoicos. Link na bio."}` no lugar de "Salve para reler.".
+     - `freebie` em 1 reel: o script termina com "Baixe grátis o Mini Diário Estoico no link da bio." e a `caption` também menciona o diário grátis no link da bio;
+     - `product` em 1 reel: o script termina com "O Diário Estoico completo, com 30 dias de exercícios, está no link da bio." e a `caption` menciona o diário de 30 dias no link da bio. Escolha um tema ligado a hábito e prática diária (disciplina, revisão da noite, constância);
+     - `follow` ou `save` nos 3 restantes.
+   - Últimos slides dos carrosséis: em 1 dos 3, use `{"title": "Baixe grátis o Mini Diário Estoico", "body": "7 dias de exercícios estoicos. Link na bio."}`; em outro, use `{"title": "Quer praticar por 30 dias?", "body": "O Diário Estoico completo está no link da bio."}`; no terceiro, mantenha "Salve para reler.".
    - `hook`: curto e provocativo, diferente de todos os ganchos dos 2 lotes anteriores.
    - `footage_keywords`: 2–3 termos em inglês, visuais e sóbrios (ex.: "marble statue", "stormy sea", "candle dark").
    - Carrossel: 6–8 `slides` (`title`, `body`, `quote_id` opcional). Slide 1 = capa com gancho; último = CTA ("Salve para reler." / "Siga a Fortaleza Interior."). `quote_ids` lista as citações usadas nos slides.

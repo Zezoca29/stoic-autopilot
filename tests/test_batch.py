@@ -58,3 +58,8 @@ def test_quote_ids_of(week):
 def test_freebie_cta_is_accepted(week):
     week["items"][0]["cta"] = "freebie"
     assert check_structure(week) == []
+
+
+def test_product_cta_is_accepted(week):
+    week["items"][0]["cta"] = "product"
+    assert check_structure(week) == []
