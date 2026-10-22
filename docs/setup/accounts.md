@@ -23,7 +23,7 @@ As telas da Meta e do TikTok mudam com frequência — se um nome de menu não b
 2. Guarde para colocar no `.env` (seção 7).
 
 ## 5. Token do Instagram
-1. Em https://developers.facebook.com crie um app (tipo **Business**) e adicione o produto/caso de uso de **Instagram** com **"API setup with Instagram login"** (Instagram API com login do Instagram — não precisa de Página do Facebook).
+1. Em https://developers.facebook.com clique em **Create App** → caso de uso **Other** → tipo **Business** → nome e e-mail → **Create**. No painel, em **Instagram** clique em **Set up**; a **API setup with Instagram login** é adicionada sozinha (não precisa de Página do Facebook). A verificação de empresa só é exigida para colocar o app em modo Live, não para o uso em desenvolvimento.
 2. Permissões necessárias: `instagram_business_basic` e `instagram_business_content_publish`.
 3. Em "Generate access tokens", clique em **Add account** e entre com a conta do projeto. Se pedir, adicione a conta em Funções do app → Testadores do Instagram e aceite o convite no app do Instagram (Configurações → Apps e sites).
 4. Copie o **token** (vale 60 dias; a renovação automática roda toda segunda) e o **ID da conta Instagram** mostrado ao lado.
@@ -38,7 +38,7 @@ As telas da Meta e do TikTok mudam com frequência — se um nome de menu não b
 - Arquivo local `.env` (copie de `env.example`): `PIXABAY_API_KEY`, `IG_USER_ID`, `IG_ACCESS_TOKEN`, `PAGES_BASE_URL`, `IG_HANDLE`.
 - GitHub → repositório → Settings → Secrets and variables → Actions:
   - **Secrets:** `IG_USER_ID`, `IG_ACCESS_TOKEN`, `GH_SECRETS_PAT` (token da seção 6).
-  - **Variables:** `PAGES_BASE_URL` = `https://SEU_USUARIO.github.io/stoic-autopilot`.
+  - **Variables:** `PAGES_BASE_URL` = `https://zezoca29.github.io/stoic-autopilot`.
 
 ## 8. Músicas
 Baixe 3–5 trilhas calmas (ex.: busque "ambient piano", "cinematic calm") em https://pixabay.com/music/ e salve como `.mp3` em `generator/music/`. Elas ficam só no seu PC.
