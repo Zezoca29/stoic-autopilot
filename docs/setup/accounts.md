@@ -5,7 +5,7 @@ Comece pelo Instagram hoje: a conta precisa de 5–7 dias de uso manual antes da
 As telas da Meta e do TikTok mudam com frequência — se um nome de menu não bater, procure pelo termo equivalente.
 
 ## 1. Instagram
-1. Crie uma conta nova (e-mail dedicado ao projeto) com o nome **Fortaleza Interior** e o @ `@fortalezainterior`. Se estiver ocupado, use `@fortaleza.interior` ou `@fortalezainterior.br`.
+1. Crie uma conta nova (e-mail dedicado ao projeto) com o nome **Fortaleza Interior**. O @ escolhido foi `@fortalezainterior.br` (o `@fortalezainterior` estava ocupado).
 2. Foto, nome e bio. Bio sugerida: "Fortaleza Interior: estoicismo para a vida real. Sêneca, Marco Aurélio, Epicteto. Narração com voz sintética. 📚 Livros ↓"
 3. Configurações → Tipo de conta → **Mudar para conta profissional → Criador**. Categoria: "Educação" ou "Autor".
 4. Aquecimento (5–7 dias): siga ~30 perfis do nicho, curta e comente de verdade, poste 2–3 vezes manualmente.
