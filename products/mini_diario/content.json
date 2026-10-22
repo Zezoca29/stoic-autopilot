@@ -1,0 +1,76 @@
+{
+  "title": "Mini Diário Estoico",
+  "subtitle": "7 dias para construir sua fortaleza interior",
+  "how_to": [
+    "Um dia por vez. Cada dia leva cerca de 10 minutos.",
+    "De manhã, leia a citação e a explicação, e decida quando vai fazer o exercício.",
+    "À noite, responda às perguntas da página. Escreva à mão, se puder: a mão desacelera a mente.",
+    "Não precisa ser perfeito. Os estoicos chamavam isso de prática, não de prova.",
+    "Imprima as páginas ou use num tablet com caneta."
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "O que depende de você",
+      "quote_id": "epictetus-enchiridion-1-a",
+      "meaning": "Epicteto dividia tudo em duas listas. Na primeira, o que depende de você: suas opiniões, suas escolhas, seu esforço, o modo como reage. Na segunda, todo o resto: o que os outros pensam, o trânsito, a economia, o resultado final. A maior parte da nossa angústia vem de tratar a segunda lista como se fosse a primeira.",
+      "exercise": "Pegue a preocupação que mais ocupou sua cabeça nesta semana e divida-a ao meio: o que nela depende de você e o que não depende. Faça hoje uma única ação sobre a primeira parte e solte a segunda.",
+      "prompts": ["O que está me preocupando agora?", "O que disso depende de mim?", "Qual é a única ação que vou fazer hoje?"]
+    },
+    {
+      "day": 2,
+      "title": "Não são os fatos, é a opinião",
+      "quote_id": "marcus-meditations-4-7",
+      "meaning": "Entre o que acontece e o que você sente existe um julgamento rápido, quase automático: \"isso é horrível\", \"isso é injusto\", \"isso é um desastre\". Os estoicos treinavam perceber esse julgamento antes de acreditar nele. O fato raramente muda; a história que contamos sobre ele, sim.",
+      "exercise": "Toda vez que algo te incomodar hoje, separe mentalmente duas frases: \"o fato é...\" e \"a minha opinião é...\". Repare quantas vezes o peso está na segunda.",
+      "prompts": ["Algo que me incomodou hoje:", "O fato, sem adjetivos:", "A opinião que eu acrescentei:"]
+    },
+    {
+      "day": 3,
+      "title": "Sofrer antes da hora",
+      "quote_id": "seneca-letters-13-4",
+      "meaning": "Sêneca escreveu isso a um amigo há quase dois mil anos. A mente adora ensaiar desastres: a conversa difícil, a conta que não fecha, o resultado que não veio. Ensaiar uma vez ajuda a se preparar; ensaiar cem vezes só multiplica o sofrimento por cem.",
+      "exercise": "Escolha um medo sobre o futuro. Escreva o pior cenário, o cenário mais provável e o que você faria em cada um. Depois guarde a folha: o plano está feito, você não precisa repeti-lo na cabeça.",
+      "prompts": ["Do que tenho medo?", "O que é mais provável que aconteça?", "Se acontecer, o que eu faço?"]
+    },
+    {
+      "day": 4,
+      "title": "O obstáculo como treino",
+      "quote_id": "marcus-meditations-4-49-a",
+      "meaning": "Marco Aurélio governou durante guerras e uma epidemia. Ele não pedia uma vida sem ondas; pedia firmeza para atravessá-las. Cada dificuldade também é um treino de paciência, coragem ou criatividade. A pergunta muda de \"por que isso comigo?\" para \"o que isso me obriga a desenvolver?\".",
+      "exercise": "Pense no maior problema da sua semana e complete a frase: \"este problema está me treinando para...\". Depois aja como alguém que está em treino, não de castigo.",
+      "prompts": ["Meu obstáculo de agora:", "O que ele me obriga a desenvolver:", "Um passo concreto para hoje:"]
+    },
+    {
+      "day": 5,
+      "title": "Comece pelas pequenas coisas",
+      "quote_id": "epictetus-enchiridion-12",
+      "meaning": "Ninguém aprende serenidade numa tragédia. Ela se treina no café derramado, na fila que não anda, no comentário atravessado. São pequenas oportunidades, todos os dias, de responder em vez de reagir. Quem treina no pequeno fica pronto para o grande.",
+      "exercise": "Hoje, escolha três pequenos incômodos e trate cada um como treino. Diga a si mesmo: \"este é o preço da minha paz\". Anote abaixo como você reagiu a cada um.",
+      "prompts": ["Incômodo 1 e como reagi:", "Incômodo 2 e como reagi:", "Incômodo 3 e como reagi:"]
+    },
+    {
+      "day": 6,
+      "title": "O tempo é a única coisa que é sua",
+      "quote_id": "seneca-letters-1-2",
+      "meaning": "Memento mori, lembre que você vai morrer, não era um pensamento triste para os estoicos: era um filtro. Quando o tempo é visto como finito, fica mais fácil recusar o que não importa e parar de adiar o que importa.",
+      "exercise": "Liste o que você fez ontem e marque cada item: \"valeu a pena\" ou \"não valeu\". Escolha uma coisa da segunda lista para cortar hoje.",
+      "prompts": ["Onde meu tempo vazou ontem?", "O que estou adiando que importa?", "O que vou cortar hoje?"]
+    },
+    {
+      "day": 7,
+      "title": "A revisão da noite",
+      "quote_id": "seneca-sobre-a-ira-3-36",
+      "meaning": "Sêneca fazia esse exame todas as noites, sem se condenar e sem se poupar. Não é um tribunal, é um treino: revisar o dia para fazer melhor amanhã. É este último exercício que transforma os sete dias em hábito.",
+      "exercise": "Antes de dormir, responda às três perguntas de Sêxtio. Depois, releia o que você escreveu nos últimos seis dias.",
+      "prompts": ["Que mau hábito eu curei hoje?", "Que vício eu refreei?", "Em que estou melhor?"]
+    }
+  ],
+  "closing": [
+    "Você acabou de fazer, por uma semana, o que Marco Aurélio, Sêneca e Epicteto faziam todos os dias: separar o que depende de você, questionar as próprias opiniões e revisar o dia.",
+    "Para manter o hábito, repita a revisão da noite (dia 7) sempre que puder. Leva cinco minutos.",
+    "Todos os dias publicamos uma nova lição estoica no Instagram. E em breve chega o Diário Estoico completo, com 30 dias."
+  ],
+  "sources_note": "As citações foram traduzidas pela Fortaleza Interior a partir de traduções inglesas em domínio público (George Long, Richard M. Gummere, Aubrey Stewart), sempre com a referência da obra.",
+  "disclaimer": "Este diário tem caráter educativo e não substitui acompanhamento psicológico ou médico."
+}

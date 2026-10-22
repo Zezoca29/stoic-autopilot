@@ -5,3 +5,4 @@ __pycache__/
 .pytest_cache/
 *.pyc
 generator/music/*.mp3
+products/*/dist/
