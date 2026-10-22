@@ -10,7 +10,7 @@ from shared.jsonio import read_json
 
 HERE = Path(__file__).resolve().parent
 CONTENT_PATH = HERE / "content.json"
-OUT_PATH = HERE / "dist" / "mini-diario-estoico-7-dias.pdf"
+OUT_PATH = HERE.parent.parent / "site" / "mini-diario-estoico-7-dias.pdf"  # served as a free download on the bio page
 HANDLE = "@fortalezainterior.br"
 LINK = "zezoca29.github.io/stoic-autopilot"
 

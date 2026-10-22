@@ -26,3 +26,10 @@ def test_book_links_carry_affiliate_tag_and_disclosure():
     assert all(re.search(r'href="https://www\.amazon\.com\.br/dp/[0-9A-Z]{10}\?tag=fortalezain08-20"', line)
                for line in book_links)
     assert "Como Associado da Amazon, recebo por compras qualificadas." in index
+
+
+def test_free_journal_download_is_linked_and_present():
+    index = (SITE / "index.html").read_text(encoding="utf-8")
+    assert 'href="mini-diario-estoico-7-dias.pdf"' in index
+    assert index.index('class="freebie"') < index.index('class="book"')  # the free download comes first
+    assert (SITE / "mini-diario-estoico-7-dias.pdf").read_bytes().startswith(b"%PDF")
