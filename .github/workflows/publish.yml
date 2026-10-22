@@ -27,6 +27,10 @@ jobs:
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Latest main, not the triggering commit: a run queued behind another must see the queue it updated,
+          # otherwise it would republish posts the previous run already published.
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"

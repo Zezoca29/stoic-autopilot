@@ -1,1 +1,48 @@
-[]
+[
+  {
+    "id": "sample-r1",
+    "type": "reel",
+    "scheduled_at": "2026-10-15T23:00:00-03:00",
+    "caption": "Sêneca, Carta 13: sofremos mais na imaginação do que na realidade. A maior parte do que tira o seu sono nunca acontece. Qual preocupação sua de ontem virou realidade hoje?\n\n#estoicismo #seneca #ansiedade #filosofia",
+    "media": [
+      "reel.mp4"
+    ],
+    "platforms": {
+      "instagram": {
+        "status": "pending",
+        "attempts": 0,
+        "published_id": null,
+        "last_error": null
+      },
+      "tiktok": {
+        "status": "manual",
+        "attempts": 0,
+        "published_id": null,
+        "last_error": null
+      }
+    }
+  },
+  {
+    "id": "sample-c1",
+    "type": "carousel",
+    "scheduled_at": "2026-10-15T23:30:00-03:00",
+    "caption": "Marco Aurélio, Meditações 4.3: você não precisa de férias para encontrar paz; precisa voltar para dentro. Onde você costuma buscar refúgio?\n\n#estoicismo #marcoaurelio #meditacoes #filosofia",
+    "media": [
+      "slide-01.jpg",
+      "slide-02.jpg",
+      "slide-03.jpg",
+      "slide-04.jpg",
+      "slide-05.jpg",
+      "slide-06.jpg",
+      "slide-07.jpg"
+    ],
+    "platforms": {
+      "instagram": {
+        "status": "pending",
+        "attempts": 0,
+        "published_id": null,
+        "last_error": null
+      }
+    }
+  }
+]
