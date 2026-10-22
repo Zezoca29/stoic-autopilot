@@ -4,7 +4,7 @@ Atualizado em 2026-10-15.
 
 ## Agora
 
-- Branch `feat/stoic-autopilot`: Tasks 1–20 do plano concluídas (visual v2 aprovado em 2026-10-16), revisão final feita e achados críticos/importantes corrigidos. Nada publicado ainda; sem remote.
+- Branch `feat/stoic-autopilot`: Tasks 1–20 do plano concluídas (visual v2 aprovado em 2026-10-16), revisão final feita e achados críticos/importantes corrigidos. Código na `main` de https://github.com/Zezoca29/stoic-autopilot (público, criado em 2026-10-22). Nada publicado ainda.
 - Reel real de teste gerado de ponta a ponta (`output/amostra-teste.mp4`, 40 s, fundo reserva, sem música).
 
 ## Pendências
