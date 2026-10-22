@@ -6,7 +6,7 @@ from shared.timeutil import parse_time
 
 PILLARS = {"controle", "adversidade", "disciplina", "emocoes", "memento_mori"}
 PLATFORMS = {"instagram", "tiktok"}
-CTAS = {"follow", "save", "affiliate"}
+CTAS = {"follow", "save", "affiliate", "freebie"}  # freebie: points to the free journal on the bio page
 REQUIRED_FIELDS = {
     "reel": {"id", "type", "scheduled_at", "pillar", "hook", "quote_id", "script",
              "footage_keywords", "caption", "hashtags", "cta", "platforms"},

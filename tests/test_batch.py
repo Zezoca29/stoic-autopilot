@@ -53,3 +53,8 @@ def test_empty_items_rejected():
 def test_quote_ids_of(week):
     assert quote_ids_of(week["items"][0]) == ["q1"]
     assert quote_ids_of(week["items"][7]) == ["q11"]
+
+
+def test_freebie_cta_is_accepted(week):
+    week["items"][0]["cta"] = "freebie"
+    assert check_structure(week) == []
