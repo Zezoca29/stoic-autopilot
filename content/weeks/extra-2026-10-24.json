@@ -1,0 +1,38 @@
+{
+  "week": "extra-2026-10-24",
+  "items": [
+    {
+      "id": "extra-2026-10-24-r1",
+      "type": "reel",
+      "scheduled_at": "2026-10-24T19:00:00-03:00",
+      "pillar": "controle",
+      "hook": "Ninguém pode te machucar sem a sua permissão.",
+      "quote_id": "epictetus-enchiridion-30",
+      "script": "Ninguém pode te machucar sem a sua permissão. Parece exagero, mas Epicteto, que viveu como escravo, sabia do que estava falando. No Manual ele escreveu: ninguém o prejudicará se você não permitir; você só será prejudicado quando julgar que foi prejudicado. Alguém pode tirar seu emprego, falar mal de você ou te tratar com desprezo. Isso acontece fora de você. A ferida maior começa quando você conclui que foi diminuído. Hoje, quando alguém te atingir, separe o que aconteceu do que você concluiu sobre si mesmo. O fato você não controla; a conclusão, sim. Baixe grátis o Mini Diário Estoico no link da bio.",
+      "footage_keywords": ["stone fortress", "rocky coast", "ancient ruins"],
+      "caption": "Epicteto, Manual 30: ninguém o prejudicará se você não permitir. Baixe grátis o Mini Diário Estoico no link da bio. Que julgamento sobre você mesmo você vai soltar hoje?",
+      "hashtags": ["#estoicismo", "#epicteto", "#autoestima", "#filosofia"],
+      "cta": "freebie",
+      "platforms": ["instagram", "tiktok"]
+    },
+    {
+      "id": "extra-2026-10-24-c1",
+      "type": "carousel",
+      "scheduled_at": "2026-10-24T21:00:00-03:00",
+      "pillar": "emocoes",
+      "slides": [
+        {"title": "Como lidar com críticas", "body": "Três lições estoicas para quando falarem mal de você."},
+        {"title": "Por que a crítica pesa tanto", "body": "Muitas vezes me perguntei como cada pessoa ama a si mesma mais do que a todos os outros, mas dá menos valor à própria opinião sobre si do que à opinião alheia.", "quote_id": "marcus-meditations-12-4"},
+        {"title": "Ele acha que está certo", "body": "Quando alguém o tratar mal ou falar mal de você, lembre-se de que ele age ou fala assim porque julga que esse é o seu dever.", "quote_id": "epictetus-enchiridion-42"},
+        {"title": "Ouça quem entende", "body": "Então, meu amigo, não devemos dar importância ao que a maioria diz de nós, mas ao que dirá aquele que entende do justo e do injusto, e ao que dirá a própria verdade.", "quote_id": "socrates-criton-48"},
+        {"title": "Na prática", "body": "Antes de reagir a uma crítica, pergunte: ela é verdadeira? Se for, use. Se não for, solte."},
+        {"title": "Para hoje", "body": "Escolha uma crítica recente e escreva o que ela tem de útil. Só isso."},
+        {"title": "Quer praticar por 30 dias?", "body": "O Diário Estoico completo está no link da bio."}
+      ],
+      "quote_ids": ["marcus-meditations-12-4", "epictetus-enchiridion-42", "socrates-criton-48"],
+      "caption": "Crítica dói menos quando você sabe o que fazer com ela. Marco Aurélio, Epicteto e Sócrates mostram o caminho. Como você costuma reagir quando falam mal de você?",
+      "hashtags": ["#estoicismo", "#autoconhecimento", "#criticas", "#filosofia"],
+      "platforms": ["instagram"]
+    }
+  ]
+}

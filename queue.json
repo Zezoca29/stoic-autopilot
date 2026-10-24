@@ -46,6 +46,52 @@
     }
   },
   {
+    "id": "extra-2026-10-24-r1",
+    "type": "reel",
+    "scheduled_at": "2026-10-24T19:00:00-03:00",
+    "caption": "Epicteto, Manual 30: ninguém o prejudicará se você não permitir. Baixe grátis o Mini Diário Estoico no link da bio. Que julgamento sobre você mesmo você vai soltar hoje?\n\n#estoicismo #epicteto #autoestima #filosofia",
+    "media": [
+      "reel.mp4"
+    ],
+    "platforms": {
+      "instagram": {
+        "status": "pending",
+        "attempts": 0,
+        "published_id": null,
+        "last_error": null
+      },
+      "tiktok": {
+        "status": "manual",
+        "attempts": 0,
+        "published_id": null,
+        "last_error": null
+      }
+    }
+  },
+  {
+    "id": "extra-2026-10-24-c1",
+    "type": "carousel",
+    "scheduled_at": "2026-10-24T21:00:00-03:00",
+    "caption": "Crítica dói menos quando você sabe o que fazer com ela. Marco Aurélio, Epicteto e Sócrates mostram o caminho. Como você costuma reagir quando falam mal de você?\n\n#estoicismo #autoconhecimento #criticas #filosofia",
+    "media": [
+      "slide-01.jpg",
+      "slide-02.jpg",
+      "slide-03.jpg",
+      "slide-04.jpg",
+      "slide-05.jpg",
+      "slide-06.jpg",
+      "slide-07.jpg"
+    ],
+    "platforms": {
+      "instagram": {
+        "status": "pending",
+        "attempts": 0,
+        "published_id": null,
+        "last_error": null
+      }
+    }
+  },
+  {
     "id": "2026-10-26-r1",
     "type": "reel",
     "scheduled_at": "2026-10-26T12:00:00-03:00",
